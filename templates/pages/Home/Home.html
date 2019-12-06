@@ -1,0 +1,25 @@
+{% extends 'layout/mainLayout.html' %}
+
+{% block title %}
+    Home
+{% endblock %}
+
+{% block content %}
+    <!-- Services -->
+    {% include 'pages/Home/service.html' %}
+    <!-- Portfolio Grid -->
+    {% include 'pages/Home/portfolio.html' %}
+    <!-- About -->
+    {% include 'pages/Home/about.html' %}
+    <!-- Team -->
+    {% include 'pages/Home/team.html' %}
+    <!-- Contact -->
+    {% include 'pages/Home/contact.html' %}
+
+    <script src="{{ url_for('static',filename='vendor/jquery/jquery.min.js') }}"></script>
+    <script src="{{ url_for('static',filename='vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ url_for('static',filename='vendor/jquery-easing/jquery.easing.min.js') }}"></script>
+    <script src="{{ url_for('static',filename='js/jqBootstrapValidation.js') }}"></script>
+    <script src="{{ url_for('static',filename='js/contact_me.js') }}"></script>
+    <script src="{{ url_for('static',filename='js/agency.js') }}"></script>
+{% endblock %}
