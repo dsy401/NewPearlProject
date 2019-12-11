@@ -1,0 +1,24 @@
+		<!-- NAVIGATION -->
+		<nav id="navigation">
+			<!-- container -->
+			<div class="container">
+				<!-- responsive-nav -->
+				<div id="responsive-nav">
+					<!-- NAV -->
+					<ul class="main-nav nav navbar-nav">
+                        {% for i in range(0,menu_category_len) %}
+                        {% if menu_category[i].name==active_position %}
+                            <li class="active"><a href="javascript:void(0)">{{ menu_category[i].name }}</a></li>
+                        {% else %}
+                            <li><a href="{{ menu_category[i].link }}">{{ menu_category[i].name }}</a></li>
+                        {% endif %}
+                    {% endfor %}
+					</ul>
+
+					<!-- /NAV -->
+				</div>
+				<!-- /responsive-nav -->
+			</div>
+			<!-- /container -->
+		</nav>
+		<!-- /NAVIGATION -->
