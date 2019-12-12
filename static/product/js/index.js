@@ -2,7 +2,7 @@ function paginationHandler(i) {
     var search = window.location.search;
     var final;
     if (search==="" || search === "?"){
-        final = "/product/tiles_categories?page="+i.toString()
+        final = "/store/tiles_categories?page="+i.toString()
     }else{
         var page_position = search.indexOf('page=');
         if (page_position === -1){
@@ -19,15 +19,40 @@ function paginationHandler(i) {
     }
 
     window.location = final
-
 }
 
 
-function tileCategorySearch() {
-    var search = window.location.search;
-    var result;
-    var lowest_bound = document.getElementById("lowest-bound").value;
-    var highest_bound = document.getElementById('highest-bound').value;
+function getTileCategorySearchCheckBox() {
+    var search = window.location.search
+    var tile_category_id_arr = [];
 
-    window.location = "/product/tiles_categories?lowest_bound=" + lowest_bound + "&highest_bound=" + highest_bound
+    while (true){
+        let tile_category_id_position = search.indexOf("tile_category_id=")
+        if (tile_category_id_position == -1) break;
+
+        let and_position = search.indexOf("&")
+        if (and_position==-1){
+            tile_category_id_arr.push(search.slice(tile_category_id_position+17))
+            break;
+        }else{
+            tile_category_id_arr.push(search.slice(tile_category_id_position+17,and_position))
+            search = search.slice(0,tile_category_id_position) + search.slice(and_position+1)
+        }
+
+    }
+    return tile_category_id_arr
+
 }
+
+function AddToCartHandler(){
+    document.cookie = "a=1"
+}
+
+
+
+window.onload = function () {
+    getTileCategorySearchCheckBox().forEach(s=>{
+        document.getElementById(s).setAttribute("checked","true")
+    })
+}
+

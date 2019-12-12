@@ -8,7 +8,7 @@ from model.tile_category import *
 tiles_categories_view = Blueprint('tiles_categories_view', __name__)
 
 
-@tiles_categories_view.route("/product/tiles_categories")
+@tiles_categories_view.route("/store/tiles_categories")
 def tiles_categories():
     # categories 菜单
     tile_categories = tile_category.objects.all()

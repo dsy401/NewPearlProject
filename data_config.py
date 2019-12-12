@@ -8,19 +8,19 @@ category_info = {
     "menu_category": [
         {
             "name": "Home",
-            "link": "/product"
+            "link": "/store"
         },
         {
             "name": "Hot Deals",
-            "link": "/product/hotdeals"
+            "link": "/store/hotdeals"
         },
         {
             "name": "New Goods",
-            "link": "/product/newgoods"
+            "link": "/store/newgoods"
         },
         {
             "name": "Tiles Categories",
-            "link": "/product/tiles_categories"
+            "link": "/store/tiles_categories"
         },
     ],
     "menu_category_len": 4

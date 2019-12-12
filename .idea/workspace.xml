@@ -2,113 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59103d30-a042-402c-bab5-3d3ee70717b5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/product/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/product/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/product/css/nouislider.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/product/css/slick-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/product/css/slick.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/product/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/product/img/hotdeal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/product/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/product/img/product01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/product/img/product02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/product/img/product03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/product/img/product04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/product/img/product05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/product/img/product06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/product/img/product07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/product/img/product08.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/product/img/product09.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/product/img/shop01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/product/img/shop02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/product/img/shop03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/common/home/navbar.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/api/contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/api/contact.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/markupsafe/_constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/markupsafe/_constants.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/werkzeug/testapp.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/werkzeug/testapp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/css/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/header-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/img/header-bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/map-image.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/img/map-image.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/portfolio/1.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/img/portfolio/1.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/portfolio/2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/img/portfolio/2.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/portfolio/3.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/img/portfolio/3.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/portfolio/4.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/img/portfolio/4.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/portfolio/5.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/img/portfolio/5.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/portfolio/6.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/img/portfolio/6.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/team/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/img/team/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/team/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/img/team/2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/team/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/img/team/3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/agency.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/js/home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/contact_me.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/js/contact_me.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/jqBootstrapValidation.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/js/jqBootstrapValidation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/bootstrap/css/bootstrap-grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/vendor/bootstrap/css/bootstrap-grid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/bootstrap/css/bootstrap-grid.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/vendor/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/bootstrap/css/bootstrap-grid.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/vendor/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/bootstrap/css/bootstrap-grid.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/vendor/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/bootstrap/css/bootstrap-reboot.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/vendor/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/bootstrap/css/bootstrap-reboot.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/vendor/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/bootstrap/css/bootstrap-reboot.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/vendor/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/bootstrap/css/bootstrap-reboot.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/vendor/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/bootstrap/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/bootstrap/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/vendor/bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/bootstrap/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/bootstrap/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/vendor/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/bootstrap/js/bootstrap.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/vendor/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/bootstrap/js/bootstrap.bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/vendor/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/vendor/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/bootstrap/js/bootstrap.bundle.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/vendor/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/bootstrap/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/bootstrap/js/bootstrap.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/vendor/bootstrap/js/bootstrap.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/bootstrap/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/bootstrap/js/bootstrap.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/vendor/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/fontawesome-free/css/all.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/vendor/fontawesome-free/css/all.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/fontawesome-free/css/all.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/vendor/fontawesome-free/css/all.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/fontawesome-free/css/brands.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/vendor/fontawesome-free/css/brands.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/fontawesome-free/css/brands.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/vendor/fontawesome-free/css/brands.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/fontawesome-free/css/fontawesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/vendor/fontawesome-free/css/fontawesome.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/fontawesome-free/css/fontawesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/vendor/fontawesome-free/css/fontawesome.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/fontawesome-free/css/regular.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/vendor/fontawesome-free/css/regular.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/fontawesome-free/css/regular.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/vendor/fontawesome-free/css/regular.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/fontawesome-free/css/solid.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/vendor/fontawesome-free/css/solid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/fontawesome-free/css/solid.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/vendor/fontawesome-free/css/solid.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/fontawesome-free/css/svg-with-js.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/vendor/fontawesome-free/css/svg-with-js.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/fontawesome-free/css/svg-with-js.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/vendor/fontawesome-free/css/svg-with-js.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/fontawesome-free/css/v4-shims.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/vendor/fontawesome-free/css/v4-shims.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/fontawesome-free/css/v4-shims.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/vendor/fontawesome-free/css/v4-shims.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/fontawesome-free/webfonts/fa-brands-400.eot" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/vendor/fontawesome-free/webfonts/fa-brands-400.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/fontawesome-free/webfonts/fa-brands-400.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/vendor/fontawesome-free/webfonts/fa-brands-400.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/fontawesome-free/webfonts/fa-brands-400.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/vendor/fontawesome-free/webfonts/fa-brands-400.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/fontawesome-free/webfonts/fa-brands-400.woff" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/vendor/fontawesome-free/webfonts/fa-brands-400.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/fontawesome-free/webfonts/fa-brands-400.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/vendor/fontawesome-free/webfonts/fa-brands-400.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/fontawesome-free/webfonts/fa-regular-400.eot" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/vendor/fontawesome-free/webfonts/fa-regular-400.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/fontawesome-free/webfonts/fa-regular-400.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/vendor/fontawesome-free/webfonts/fa-regular-400.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/fontawesome-free/webfonts/fa-regular-400.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/vendor/fontawesome-free/webfonts/fa-regular-400.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/fontawesome-free/webfonts/fa-regular-400.woff" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/vendor/fontawesome-free/webfonts/fa-regular-400.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/vendor/fontawesome-free/webfonts/fa-regular-400.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/fontawesome-free/webfonts/fa-solid-900.eot" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/vendor/fontawesome-free/webfonts/fa-solid-900.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/fontawesome-free/webfonts/fa-solid-900.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/vendor/fontawesome-free/webfonts/fa-solid-900.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/fontawesome-free/webfonts/fa-solid-900.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/vendor/fontawesome-free/webfonts/fa-solid-900.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/fontawesome-free/webfonts/fa-solid-900.woff" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/vendor/fontawesome-free/webfonts/fa-solid-900.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/vendor/fontawesome-free/webfonts/fa-solid-900.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/jquery-easing/jquery.easing.compatibility.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/vendor/jquery-easing/jquery.easing.compatibility.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/jquery-easing/jquery.easing.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/vendor/jquery-easing/jquery.easing.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/jquery-easing/jquery.easing.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/vendor/jquery-easing/jquery.easing.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/jquery/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/vendor/jquery/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/jquery/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/vendor/jquery/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/jquery/jquery.min.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/vendor/jquery/jquery.min.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/jquery/jquery.slim.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/vendor/jquery/jquery.slim.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/jquery/jquery.slim.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/vendor/jquery/jquery.slim.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/jquery/jquery.slim.min.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/vendor/jquery/jquery.slim.min.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/common/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/common/home/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/common/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/common/home/head.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/common/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/common/home/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/common/navbar.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/layout/mainLayout.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout/homeLayout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/pages/Home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pages/Home/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/pages/Home/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pages/Home/portfolio.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/pages/Home/team.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pages/Home/team.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/view/hot_deals.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/view/hot_deals.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/view/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/view/product.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/view/tile_category.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/view/tile_category.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/product.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/product/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/product/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/common/home/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/common/home/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/pages/Product/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pages/Product/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/pages/Product/tiles_categories/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pages/Product/tiles_categories/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -125,13 +29,13 @@
     <session id="636085118">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.4" value="5" />
+          <entry key="project.open.time.4" value="7" />
           <entry key="project.open.time.5" value="3" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -141,49 +45,49 @@
           <entry key="env" value="17" />
           <entry key="flaskenv" value="158" />
           <entry key="gitignore" value="28" />
-          <entry key="html" value="3433" />
-          <entry key="js" value="795" />
+          <entry key="html" value="4620" />
+          <entry key="js" value="1178" />
           <entry key="json" value="84" />
-          <entry key="py" value="8932" />
+          <entry key="py" value="10852" />
           <entry key="txt" value="132" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="136" />
-          <entry key="HTML" value="3433" />
+          <entry key="HTML" value="4620" />
           <entry key="JSON" value="84" />
-          <entry key="JavaScript" value="795" />
+          <entry key="JavaScript" value="1178" />
           <entry key="PLAIN_TEXT" value="371" />
-          <entry key="Python" value="8932" />
+          <entry key="Python" value="10852" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="cfg" value="1" />
-          <entry key="css" value="14" />
+          <entry key="css" value="15" />
           <entry key="env" value="1" />
           <entry key="flaskenv" value="4" />
           <entry key="gitignore" value="5" />
-          <entry key="html" value="179" />
+          <entry key="html" value="202" />
           <entry key="jpg" value="4" />
-          <entry key="js" value="28" />
+          <entry key="js" value="36" />
           <entry key="json" value="2" />
-          <entry key="py" value="187" />
+          <entry key="py" value="222" />
           <entry key="rst" value="1" />
           <entry key="txt" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="14" />
-          <entry key="HTML" value="179" />
+          <entry key="CSS" value="15" />
+          <entry key="HTML" value="202" />
           <entry key="Image" value="4" />
           <entry key="Ini" value="1" />
           <entry key="JSON" value="2" />
-          <entry key="JavaScript" value="28" />
+          <entry key="JavaScript" value="36" />
           <entry key="PLAIN_TEXT" value="23" />
-          <entry key="Python" value="187" />
+          <entry key="Python" value="222" />
           <entry key="ReST" value="1" />
         </counts>
       </usages-collector>
@@ -192,31 +96,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/pages/Product/tiles_categories/index.html">
+        <entry file="file://$PROJECT_DIR$/templates/pages/Product/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="120" column="82" selection-start-line="120" selection-start-column="82" selection-end-line="120" selection-end-column="82" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controller/view/tile_category.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="566">
-              <caret line="107" column="46" selection-start-line="107" selection-start-column="27" selection-end-line="107" selection-end-column="46" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/product/js/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+            <state relative-caret-position="75">
+              <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -227,9 +110,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Flask Main" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -246,13 +129,11 @@
       <find>danger</find>
       <find>url</find>
       <find>home/css</find>
-      <find>src</find>
       <find>My Acc</find>
       <find>header-search</find>
       <find>input-select</find>
       <find>lin</find>
       <find>select</find>
-      <find>input</find>
       <find>01</find>
       <find>Add to compa</find>
       <find>USD</find>
@@ -263,6 +144,9 @@
       <find>brand</find>
       <find>button</find>
       <find>price</find>
+      <find>add-to-cart-btn</find>
+      <find>input</find>
+      <find>src</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -271,9 +155,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/module/view/controller/home.py" />
-        <option value="$PROJECT_DIR$/.flaskenv" />
-        <option value="$PROJECT_DIR$/__init__.py" />
         <option value="$PROJECT_DIR$/db.py" />
         <option value="$PROJECT_DIR$/common/model/Result.py" />
         <option value="$PROJECT_DIR$/config.json" />
@@ -304,24 +185,27 @@
         <option value="$PROJECT_DIR$/static/product/css/style.css" />
         <option value="$PROJECT_DIR$/templates/common/product/navbar.html" />
         <option value="$PROJECT_DIR$/model/category.py" />
-        <option value="$PROJECT_DIR$/templates/pages/Product/index.html" />
-        <option value="$PROJECT_DIR$/templates/pages/Product/hotdeals/index.html" />
         <option value="$PROJECT_DIR$/templates/common/product/newsLetter.html" />
-        <option value="$PROJECT_DIR$/data_config.py" />
-        <option value="$PROJECT_DIR$/controller/view/product.py" />
-        <option value="$PROJECT_DIR$/controller/view/hot_deals.py" />
-        <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/templates/common/product/footer.html" />
         <option value="$PROJECT_DIR$/templates/common/product/header.html" />
         <option value="$PROJECT_DIR$/templates/common/product/head.html" />
         <option value="$PROJECT_DIR$/templates/layout/productLayout.html" />
         <option value="$PROJECT_DIR$/static/product/js/main.js" />
-        <option value="$PROJECT_DIR$/model/product.py" />
         <option value="$PROJECT_DIR$/model/tile_category.py" />
         <option value="$PROJECT_DIR$/controller/view/tiles_categories.py" />
-        <option value="$PROJECT_DIR$/static/product/js/index.js" />
         <option value="$PROJECT_DIR$/controller/view/tile_category.py" />
+        <option value="$PROJECT_DIR$/controller/view/product.py" />
+        <option value="$PROJECT_DIR$/controller/view/hot_deals.py" />
+        <option value="$PROJECT_DIR$/app.py" />
+        <option value="$PROJECT_DIR$/templates/common/home/header.html" />
+        <option value="$PROJECT_DIR$/data_config.py" />
+        <option value="$PROJECT_DIR$/templates/pages/Product/index.html" />
+        <option value="$PROJECT_DIR$/templates/pages/Product/hotdeals/index.html" />
+        <option value="$PROJECT_DIR$/model/product.py" />
+        <option value="$PROJECT_DIR$/controller/view/product_description.py" />
+        <option value="$PROJECT_DIR$/static/product/js/index.js" />
         <option value="$PROJECT_DIR$/templates/pages/Product/tiles_categories/index.html" />
+        <option value="$PROJECT_DIR$/templates/pages/Product/product_description/index.html" />
       </list>
     </option>
   </component>
@@ -332,8 +216,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1757" />
-    <option name="y" value="23" />
+    <option name="x" value="-1689" />
+    <option name="y" value="31" />
     <option name="width" value="1628" />
     <option name="height" value="949" />
   </component>
@@ -343,7 +227,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -360,7 +243,18 @@
               <item name="NewPearlProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="NewPearlProject" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewPearlProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewPearlProject" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewPearlProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewPearlProject" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NewPearlProject" type="b2602c69:ProjectViewProjectNode" />
@@ -380,34 +274,53 @@
               <item name="product" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="NewPearlProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewPearlProject" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewPearlProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewPearlProject" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewPearlProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewPearlProject" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="Product" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="price-&#9;null&#9;null&#10;price-min&#9;null&#9;null&#10;bootstrap.min.css.map&#9;null&#9;null&#10;static/home/css/home&#9;FILE&#9;file:///Users/oliver/Desktop/NewPearlProject/static/home/img/css/home.css&#10;favicon&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="add-to-cart-btn&#9;null&#9;null&#10;price-&#9;null&#9;null&#10;price-min&#9;null&#9;null&#10;bootstrap.min.css.map&#9;null&#9;null&#10;static/home/css/home&#9;FILE&#9;file:///Users/oliver/Desktop/NewPearlProject/static/home/img/css/home.css&#10;favicon&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/static/home" />
-      <recent name="$PROJECT_DIR$/templates/layout" />
-      <recent name="$PROJECT_DIR$/templates/common/home" />
-      <recent name="$PROJECT_DIR$/static" />
-      <recent name="$PROJECT_DIR$/static/img" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/static/product" />
       <recent name="$PROJECT_DIR$/static/img" />
       <recent name="$PROJECT_DIR$/templates/pages/Home" />
       <recent name="$PROJECT_DIR$/static/js" />
       <recent name="$PROJECT_DIR$/static/css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/product/js" />
+      <recent name="$PROJECT_DIR$/static/home" />
+      <recent name="$PROJECT_DIR$/templates/layout" />
+      <recent name="$PROJECT_DIR$/templates/common/home" />
+      <recent name="$PROJECT_DIR$/static" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -508,10 +421,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1757" y="23" width="1628" height="949" extended-state="0" />
-    <editor active="true" />
+    <frame x="-1689" y="31" width="1628" height="949" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19041614" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19482976" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -525,7 +437,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.19369894" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.2590432" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32905483" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -564,20 +476,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/home/js/contact_me.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="46" column="79" selection-start-line="46" selection-start-column="79" selection-end-line="46" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -670,81 +568,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/common/product/newsLetter.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/model/category.py" />
-    <entry file="file://$PROJECT_DIR$/templates/pages/Product/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="5" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/pages/Product/hotdeals/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="24" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/pages/Home/navbar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/common/home/navbar.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/common/home/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/common/product/navbar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/common/product/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/view/hot_deals.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="121" selection-start-line="8" selection-start-column="121" selection-end-line="8" selection-end-column="121" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/view/home.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="44" lean-forward="true" selection-start-column="44" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -771,9 +599,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/product/js/main.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/product/js/bootstrap.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -798,6 +623,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/product/js/main.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/pages/Home/navbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/common/home/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="87" selection-start-line="6" selection-start-column="87" selection-end-line="6" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/common/product/newsLetter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/common/product/navbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/common/product/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-419">
+          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/view/home.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/layout/productLayout.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -805,10 +689,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/view/product.py">
+    <entry file="file://$PROJECT_DIR$/controller/api/contact.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/pages/Product/hotdeals/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/view/hot_deals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="122" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="122" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -819,62 +730,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="37" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/api/contact.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/model/product.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+        <state relative-caret-position="75">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/product/css/style.css">
+    <entry file="file://$PROJECT_DIR$/controller/view/product.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2397">
-          <caret line="1238" column="1" selection-start-line="1238" selection-start-column="1" selection-end-line="1238" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/product/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/view/tile_category.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="107" column="46" selection-start-line="107" selection-start-column="27" selection-end-line="107" selection-end-column="46" />
+        <state relative-caret-position="195">
+          <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/controller/view/tile_category.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="38" selection-start-line="38" selection-end-line="41" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/product/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="1054" column="10" lean-forward="true" selection-start-line="1054" selection-start-column="10" selection-end-line="1054" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/pages/Product/tiles_categories/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="120" column="82" selection-start-line="120" selection-start-column="82" selection-end-line="120" selection-end-column="82" />
+        <state relative-caret-position="165">
+          <caret line="89" column="63" selection-start-line="89" selection-start-column="63" selection-end-line="89" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/view/product_description.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/product/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/pages/Product/product_description/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-292">
+          <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/pages/Product/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
         </state>
       </provider>
     </entry>
