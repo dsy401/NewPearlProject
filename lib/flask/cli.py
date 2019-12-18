@@ -219,12 +219,12 @@ def prepare_import(path):
 
     module_name = []
 
-    # move up until outside package structure (no app.py)
+    # move up until outside package structure (no main.py)
     while True:
         path, name = os.path.split(path)
         module_name.append(name)
 
-        if not os.path.exists(os.path.join(path, "app.py")):
+        if not os.path.exists(os.path.join(path, "main.py")):
             break
 
     if sys.path[0] != path:
@@ -387,7 +387,7 @@ class ScriptInfo(object):
                 import_name = prepare_import(path)
                 app = locate_app(self, import_name, name)
             else:
-                for path in ("wsgi.py", "app.py"):
+                for path in ("wsgi.py", "main.py"):
                     import_name = prepare_import(path)
                     app = locate_app(self, import_name, None, raise_if_not_found=False)
 
@@ -398,7 +398,7 @@ class ScriptInfo(object):
             raise NoAppException(
                 "Could not locate a Flask application. You did not provide "
                 'the "FLASK_APP" environment variable, and a "wsgi.py" or '
-                '"app.py" module was not found in the current directory.'
+                '"main.py" module was not found in the current directory.'
             )
 
         if self.set_debug_flag:

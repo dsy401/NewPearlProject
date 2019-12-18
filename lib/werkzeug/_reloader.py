@@ -24,9 +24,9 @@ def _iter_module_files():
         filename = getattr(module, "__file__", None)
         if filename:
             if os.path.isdir(filename) and os.path.exists(
-                os.path.join(filename, "app.py")
+                os.path.join(filename, "main.py")
             ):
-                filename = os.path.join(filename, "app.py")
+                filename = os.path.join(filename, "main.py")
 
             old = None
             while not os.path.isfile(filename):
@@ -79,7 +79,7 @@ def _get_args_for_reloading():
         and not os.path.exists(py_script)
         and os.path.exists(py_script + ".exe")
     ):
-        # Executed a file, like "python app.py".
+        # Executed a file, like "python main.py".
         py_script = os.path.abspath(py_script)
 
         if os.name == "nt":
