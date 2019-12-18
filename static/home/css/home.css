@@ -645,6 +645,7 @@ section#contact :-ms-input-placeholder {
 .footer {
   padding: 25px 0;
   text-align: center;
+  background-color:#212529 ;
 }
 
 .footer span.copyright {
@@ -686,4 +687,9 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 #contact a:hover{
     text-decoration: none;
+}
+
+#map{
+    height: 380px;
+    width: 540px;
 }
