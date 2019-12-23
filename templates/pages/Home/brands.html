@@ -1,0 +1,33 @@
+<section class="page-section" id="brands">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading text-uppercase">{{ locale['brands']['title'] }}</h2>
+                <h3 class="section-subheading text-muted">{{ locale['brands']['subtitle'] }}</h3>
+            </div>
+        </div>
+        <div class="row">
+            {% for i in range(0,brands_count) %}
+                <div class="p-3 col-sm-6 col-xs-1 col-lg-3 col-xl-3">
+                    <div class="card-wrapper">
+                        <div class="card-img pb-2">
+                            <img class="img-fluid" src="{{ brands[i]['image'] }}"/>
+                        </div>
+                        <div class="card-box text-left">
+                            {% if locale['language']=="English" %}
+                                <h6>{{ brands[i]['name'] }}</h6>
+                            {% else %}
+                                <h6>{{ brands[i]['name_cn'] }}</h6>
+                            {% endif %}
+                            {% if locale['language']=="English" %}
+                                <p style="color: #767676">{{ brands[i]['description'] }}</p>
+                            {% else %}
+                                <p style="color: #767676">{{ brands[i]['description_cn'] }}</p>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>

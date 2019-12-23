@@ -1,23 +1,10 @@
 {% extends 'common/home/navbar.html' %}
 {% block navBar %}
      <ul class="navbar-nav text-uppercase ml-auto">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#services">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#team">Team</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#where">WHERE AM I</a>
-          </li>
+         {% for item in locale['navbar']['nav_item'] %}
+             <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="{{ item['href'] }}">{{ item['name'] }}</a>
+             </li>
+         {% endfor %}
         </ul>
 {% endblock %}

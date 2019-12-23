@@ -19,8 +19,10 @@ $(function() {
       }
       $this = $("#sendMessageButton");
       $this.prop("disabled", true); // Disable submit button until AJAX call is complete to prevent duplicate messages
+        var url = window.location.pathname==="/"?'/api/contact': "/api/contact/cn"
+        var serverErrorMessage = window.location.pathname==="/"?"Sorry " + firstName + ", it seems that my mail server is not responding. Please try again later!": "抱歉， " + firstName + ", 邮箱服务器没响应，请稍后再试!"
       $.ajax({
-        url: "/api/contact",
+        url: url,
         type: "POST",
         data: {
           name: name,
@@ -46,7 +48,7 @@ $(function() {
           $('#success').html("<div class='alert alert-danger'>");
           $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
             .append("</button>");
-          $('#success > .alert-danger').append($("<strong>").text("Sorry " + firstName + ", it seems that my mail server is not responding. Please try again later!"));
+          $('#success > .alert-danger').append($("<strong>").text(serverErrorMessage));
           $('#success > .alert-danger').append('</div>');
           //clear all fields
           $('#contactForm').trigger("reset");

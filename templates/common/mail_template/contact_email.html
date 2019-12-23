@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+</head>
+<body>
+<div class="container">
+    <h2>A client contact you by the website, Please reply him within 24 hours.</h2>
+    <h3>This is the client message below:</h3>
+    <div class="form-group">
+        <div style="padding: 10px">
+            <label>Name: </label>
+            <input style="background: white;width: 40%" class="form-control" value="{{ form['name'] }}"/>
+        </div>
+        <div style="padding: 10px">
+            <label>Email: </label>
+            <input style="background: white;width: 40%" class="form-control" value="{{ form['email'] }}"/>
+        </div>
+        <div style="padding: 10px">
+            <label>Phone: </label>
+            <input style="background: white;width: 40%" class="form-control" value="{{ form['phone'] }}"/>
+        </div>
+        <div style="padding: 10px">
+            <label style="vertical-align: top" for="exampleFormControlTextarea3">Message: </label>
+            <textarea style="background: white" class="form-control" id="exampleFormControlTextarea3" rows="7" cols="50">{{ form['message'] }}</textarea>
+        </div>
+    </div>
+</div>
+</body>
+</html>
