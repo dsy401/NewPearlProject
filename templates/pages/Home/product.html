@@ -10,13 +10,21 @@
       <div class="row">
           {% for i in range(0,product_categories_count) %}
               <div class="col-md-4 col-sm-6 portfolio-item">
-                  <a class="portfolio-link" data-toggle="modal" href="#portfolioModal{{ i }}">
+                  <a onclick="OpenPortfolioModal({% if locale['language'] == "English" %}
+                              '{{ product_categories[i]['name'] }}'
+                          {% else %}
+                              '{{ product_categories[i]['name_cn'] }}'
+                          {% endif %},{% if locale['language'] == "English" %}
+                              '{{ product_categories[i]['description'] }}'
+                          {% else %}
+                              '{{ product_categories[i]['description_cn'] }}'
+                          {% endif %},'{{ product_categories[i]['id'] }}')" class="portfolio-link" data-toggle="modal" href="#portfolioModal">
                       <div class="portfolio-hover">
                           <div class="portfolio-hover-content">
                               <i class="fas fa-plus fa-3x"></i>
                           </div>
                       </div>
-                      <img class="img-fluid" src="{{ product_categories[i].image }}" alt="">
+                      <img style="width: 350px;height: 300px" class="img-fluid" src="{{ product_categories[i].image }}" alt="">
                   </a>
                   <div class="portfolio-caption">
                       <h4>
@@ -43,73 +51,38 @@
   </section>
 
 
-{% for i in range(0,product_categories_count) %}
-    <div class="portfolio-modal modal fade" id="portfolioModal{{ i }}" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="portfolioModal" tabindex="-1" role="dialog" aria-hidden="true">
                     <div class="modal-dialog">
                       <div class="modal-content">
-                        <div class="close-modal" data-dismiss="modal">
-                          <div class="lr">
-                            <div class="rl"></div>
+                          <div class="close-modal" data-dismiss="modal">
+                              <div class="lr">
+                                  <div class="rl"></div>
+                              </div>
                           </div>
-                        </div>
-                        <div class="container">
+                        <div class="container portfolioproduct">
                           <div class="row">
                             <div class="col-lg-12 mx-auto">
                               <div class="modal-body">
                                 <!-- Project Details Go Here -->
-                                <h2 class="text-uppercase">
-                                    {% if locale['language'] == "English" %}
-                                        {{ product_categories[i]['name'] }}
-                                    {% else %}
-                                        {{ product_categories[i]['name_cn'] }}
-                                    {% endif %}
+                                <h2 id="portfolioModalTitle" class="text-uppercase">
+{#                                    name#}
                                 </h2>
-                                <p class="item-intro text-muted">
-                                    {% if locale['language'] == "English" %}
-                                        {{ product_categories[i]['description'] }}
-                                    {% else %}
-                                        {{ product_categories[i]['description_cn'] }}
-                                    {% endif %}
+                                <p id="portfolioModalDescription" class="item-intro text-muted">
+{#                                    description#}
                                 </p>
-                                <div class="row">
-                                    <figure class="col-md-4 col-sm-6 portfolio-item">
-                                        <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(117).jpg" data-size="1600x1067">
-                                            <img style="height: 224px;width: 224px" alt="picture" src="https://www.newpearl.co.nz/wp-content/uploads/2019/11/PY6647.jpg"
-                                                 class="img-fluid" alt="picture" />
-                                        </a>
-                                        <p style="color:#000;">PG1000000</p>
-                                    </figure>
-                                    <figure class="col-md-4 col-sm-6 portfolio-item">
-                                        <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(117).jpg" data-size="1600x1067">
-                                            <img style="height: 224px;width: 224px" alt="picture" src="https://www.newpearl.co.nz/wp-content/uploads/2019/07/IMG_4010.jpg"
-                                                 class="img-fluid" alt="picture" />
-                                        </a>
-                                        <p style="color:#000;">PG1000000</p>
-                                    </figure>
-                                    <figure class="col-md-4 col-sm-6 portfolio-item">
-                                        <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(117).jpg" data-size="1600x1067">
-                                            <img style="height: 224px;width: 224px" alt="picture" src="https://www.newpearl.co.nz/wp-content/uploads/2019/07/IMG_4010.jpg"
-                                                 class="img-fluid" alt="picture" />
-                                        </a>
-                                        <p style="color:#000;">PG1000000</p>
-                                    </figure>
-                                    <figure class="col-md-4 col-sm-6 portfolio-item">
-                                        <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(117).jpg" data-size="1600x1067">
-                                            <img style="height: 224px;width: 224px" alt="picture" src="https://www.newpearl.co.nz/wp-content/uploads/2019/07/IMG_4010.jpg"
-                                                 class="img-fluid" alt="picture" />
-                                        </a>
-                                        <p style="color:#000;">PG1000000</p>
-                                    </figure>
+                                <div id="portfolioModalProduct" class="row">
+
                                 </div>
 
                               </div>
+                                <button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fas fa-times"></i> Close</button>
                             </div>
                           </div>
                         </div>
                       </div>
+
                     </div>
                </div>
 
 
 
-{% endfor %}

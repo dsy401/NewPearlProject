@@ -65,7 +65,7 @@ en = {
     },
     "product": {
         "title": "Our Product",
-        "subtitle": 'Lorem ipsum dolor sit amet consectetur.',
+        "subtitle": 'You will find what you want',
     },
     "about": {
         "title": "About Our Company",
@@ -73,12 +73,12 @@ en = {
     },
     "team": {
         "title": "Our Amazing Team",
-        "subtitle": "Lorem ipsum dolor sit amet consectetur.",
-        "foot_content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+        "subtitle": "Four company backbones",
+        "foot_content": "We are a professional team and we will bring the best products and best services to consumers. Our purpose is for customer to use the best tiles.We are a professional team and we will bring the best products and best services to consumers. Our purpose is for customer to use the best tiles."
     },
     "contact": {
         "title": "Contact Us",
-        "subtitle": 'Lorem ipsum dolor sit amet consectetur.',
+        "subtitle": 'If you have any questions, please contact us.',
         "content": " Contact us and we'll get back to you within 24 hours.",
         "phone": " +64 22 0672288",
         "address": " Unit 2, 59 Corinthian Drive, Albany",
@@ -94,7 +94,7 @@ en = {
     },
     "where": {
         "title": "Where Am I?",
-        "subtitle": 'Lorem ipsum dolor sit amet consectetur.',
+        "subtitle": 'We are at Unit 2, 59 Corinthian Drive, Albany (next to Clip \'N Climb)',
         "front_door": 'Front door',
         "google_map": "Google Map"
     },
@@ -105,7 +105,7 @@ en = {
     },
     "brands":{
         "title": "Our Brands",
-        "subtitle": 'Lorem ipsum dolor sit amet consectetur.',
+        "subtitle": 'We sell the best brands',
     }
 }
 
@@ -183,7 +183,7 @@ cn = {
     },
     "product": {
         "title": "我们的产品",
-        "subtitle": '这是测试这是测试这是测试这是测试这是测试',
+        "subtitle": '你会找到你喜爱的产品',
     },
     "about": {
         "title": "关于公司",
@@ -191,12 +191,12 @@ cn = {
     },
     "team": {
         "title": "我们的团队",
-        "subtitle": "这是测试这是测试这是测试这是测试这是测试",
-        "foot_content": "这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试"
+        "subtitle": "四位公司核心骨干",
+        "foot_content": "我们是一支专业的团队，我们会把最好的产品和最好的服务带给消费者。我们的宗旨是让客户使用最好的瓷砖，从而感受到家的感觉。我们是一支专业的团队，我们会把最好的产品和最好的服务带给消费者。我们的宗旨是让客户使用最好的瓷砖，从而感受到家的感觉。"
     },
     "contact": {
         "title": "联系我们",
-        "subtitle": '这是测试这是测试这是测试这是测试这是测试',
+        "subtitle": '有什么想要咨询的,请联系我们',
         "content": "联系我们，我们会在24小时内回复你的消息",
         "phone": " +64 22 0672288",
         "address": " Unit 2, 59 Corinthian Drive, Albany",
@@ -212,7 +212,7 @@ cn = {
     },
     "where": {
         "title": "我们在哪里？",
-        "subtitle": '这是测试这是测试这是测试这是测试这是测试',
+        "subtitle": '我们在 Unit 2, 59 Corinthian Drive, Albany (Clip \'N Climb 旁边)',
         "front_door": '正门',
         "google_map": "Google地图"
     },
@@ -223,6 +223,6 @@ cn = {
     },
     "brands": {
         "title": "品牌",
-        "subtitle": '这是测试这是测试这是测试这是测试这是测试',
+        "subtitle": '我们卖的是最好的品牌',
     }
 }

@@ -693,3 +693,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
     height: 380px;
     width: 540px;
 }
+
+.portfolioproduct{
+    transition: ease-in-out 1s;
+}
