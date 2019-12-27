@@ -3,12 +3,13 @@ from model.staff import staff
 from model.about import about
 from model.brand import brand
 from model.product_category import product_category
-from locale import en, cn
+from locale import language
 home_view = Blueprint('home_view', __name__)
 
 
 @home_view.route('/', methods=['GET'])
 def index():
+    en = language['en']
     staffs = staff.objects
     abouts = about.objects
     brands = brand.objects
@@ -27,6 +28,7 @@ def index():
 
 @home_view.route('/cn', methods=['GET'])
 def index_cn():
+    cn=language['cn']
     staffs = staff.objects
     abouts = about.objects
     brands = brand.objects
