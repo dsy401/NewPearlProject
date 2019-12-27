@@ -1,9 +1,9 @@
-from flask import *
+from flask import render_template,Blueprint
 from model.staff import staff
 from model.about import about
 from model.brand import brand
 from model.product_category import product_category
-from locale import *
+from locale import en, cn
 home_view = Blueprint('home_view', __name__)
 
 
