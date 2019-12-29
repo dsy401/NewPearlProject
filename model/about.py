@@ -6,3 +6,5 @@ class about(Document):
     image = StringField(required=True)
     description = StringField(required=True)
     subheading=StringField(required=True)
+    description_cn = StringField(required=True)
+    subheading_cn = StringField(required=True)

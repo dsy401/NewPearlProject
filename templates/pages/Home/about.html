@@ -18,19 +18,38 @@
               <div class="timeline-panel">
                 <div class="timeline-heading">
                   <h4>{{ abouts[i].timeline }}</h4>
-                  <h4 class="subheading">{{ abouts[i].subheading }}</h4>
+                  {% if locale['language']== 'English' %}
+                      <h4 class="subheading">{{ abouts[i]['subheading'] }}</h4>
+                  {% else %}
+                      <h4 class="subheading">{{ abouts[i]['subheading_cn'] }}</h4>
+                  {% endif %}
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">{{ abouts[i].description }}</p>
+                    {% if locale['language']== 'English' %}
+                        <p class="text-muted">{{ abouts[i]['description'] }}</p>
+                    {% else %}
+                        <p class="text-muted">{{ abouts[i]['description_cn'] }}</p>
+                    {% endif %}
+
                 </div>
               </div>
             </li>
             {% endfor %}
             <li class="timeline-inverted">
               <div class="timeline-image">
-                  <h4>Be Part
-                  <br>Of Our
-                  <br>Story!</h4>
+                  {% if locale['langauge'] == 'English' %}
+                      <h4>
+                          Be Part
+                          <br>Of Our
+                          <br>Story!
+                      </h4>
+                  {% else %}
+                      <h4>
+                      这是
+                      <br>我们的
+                      <br>故事
+                      </h4>
+                  {% endif %}
               </div>
             </li>
           </ul>
