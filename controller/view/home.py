@@ -3,7 +3,7 @@ from model.staff import staff
 from model.about import about
 from model.brand import brand
 from model.product_category import product_category
-from locale import language
+from language import language
 home_view = Blueprint('home_view', __name__)
 
 

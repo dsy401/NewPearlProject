@@ -589,8 +589,8 @@ if WIN:
     from ._winconsole import _get_windows_console_stream, _wrap_std_stream
 
     def _get_argv_encoding():
-        import locale
-        return locale.getpreferredencoding()
+        import language
+        return language.getpreferredencoding()
 
     if PY2:
         def raw_input(prompt=''):

@@ -52,8 +52,8 @@ def _verify_python3_env():
     if PY2:
         return
     try:
-        import locale
-        fs_enc = codecs.lookup(locale.getpreferredencoding()).name
+        import language
+        fs_enc = codecs.lookup(language.getpreferredencoding()).name
     except Exception:
         fs_enc = 'ascii'
     if fs_enc != 'ascii':
