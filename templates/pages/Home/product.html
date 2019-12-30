@@ -7,6 +7,19 @@
           <h3 class="section-subheading text-muted">{{ locale['product']['subtitle'] }}</h3>
         </div>
       </div>
+        <div class="form-group">
+                <div class="d-inline-block">
+                    <label><i class="fa fa-search"></i></label>
+                </div>
+                <div class="d-inline-block">
+                    <input  id="ProductSearchCode" value="" placeholder="Search By Code ..." class="form-control"/>
+                </div>
+                <div class="d-inline-block">
+                    <button data-toggle="modal" data-target="#portfolioModal" onclick="SearchByProductCode()" class="btn btn-primary">
+                        Go
+                    </button>
+                </div>
+        </div>
       <div class="row">
           {% for i in range(0,product_categories_count) %}
               <div class="col-md-4 col-sm-6 portfolio-item">
@@ -70,6 +83,11 @@
                                 <p id="portfolioModalDescription" class="item-intro text-muted">
 {#                                    description#}
                                 </p>
+
+                                   <!-- spinner here -->
+                                  <div id="productLoadingSpinner" class="text-center pt-5 spinner-border text-primary" style="width: 8rem; height: 8rem; display: none" role="status">
+
+                                  </div>
                                 <div id="portfolioModalProduct" class="row">
 
                                 </div>

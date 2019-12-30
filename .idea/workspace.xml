@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="59103d30-a042-402c-bab5-3d3ee70717b5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/api/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/api/product.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/home/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/pages/Home/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pages/Home/product.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,14 +22,14 @@
     <session id="636085118">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="26" />
-          <entry key="project.open.time.0" value="5" />
+          <entry key="project.closed" value="27" />
+          <entry key="project.open.time.0" value="6" />
           <entry key="project.open.time.3" value="3" />
           <entry key="project.open.time.4" value="11" />
           <entry key="project.open.time.5" value="6" />
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="28" />
+          <entry key="project.opened" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -36,21 +39,21 @@
           <entry key="env" value="17" />
           <entry key="flaskenv" value="158" />
           <entry key="gitignore" value="28" />
-          <entry key="html" value="10081" />
-          <entry key="js" value="2125" />
+          <entry key="html" value="10745" />
+          <entry key="js" value="2497" />
           <entry key="json" value="84" />
-          <entry key="py" value="15729" />
+          <entry key="py" value="16138" />
           <entry key="txt" value="179" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="390" />
-          <entry key="HTML" value="10087" />
+          <entry key="HTML" value="10751" />
           <entry key="JSON" value="84" />
-          <entry key="JavaScript" value="2119" />
+          <entry key="JavaScript" value="2491" />
           <entry key="PLAIN_TEXT" value="456" />
-          <entry key="Python" value="15729" />
+          <entry key="Python" value="16138" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -60,13 +63,13 @@
           <entry key="env" value="1" />
           <entry key="flaskenv" value="4" />
           <entry key="gitignore" value="9" />
-          <entry key="html" value="381" />
-          <entry key="jpeg" value="4" />
-          <entry key="jpg" value="6" />
-          <entry key="js" value="51" />
+          <entry key="html" value="385" />
+          <entry key="jpeg" value="5" />
+          <entry key="jpg" value="7" />
+          <entry key="js" value="52" />
           <entry key="json" value="2" />
-          <entry key="png" value="1" />
-          <entry key="py" value="368" />
+          <entry key="png" value="2" />
+          <entry key="py" value="376" />
           <entry key="rst" value="1" />
           <entry key="txt" value="19" />
           <entry key="yaml" value="3" />
@@ -75,13 +78,13 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="32" />
-          <entry key="HTML" value="381" />
-          <entry key="Image" value="11" />
+          <entry key="HTML" value="385" />
+          <entry key="Image" value="14" />
           <entry key="Ini" value="1" />
           <entry key="JSON" value="2" />
-          <entry key="JavaScript" value="51" />
+          <entry key="JavaScript" value="52" />
           <entry key="PLAIN_TEXT" value="33" />
-          <entry key="Python" value="368" />
+          <entry key="Python" value="376" />
           <entry key="ReST" value="1" />
           <entry key="YAML" value="3" />
         </counts>
@@ -91,43 +94,30 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.py">
+        <entry file="file://$PROJECT_DIR$/templates/pages/Home/product.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="371">
+              <caret line="82" column="64" selection-start-line="82" selection-start-column="39" selection-end-line="82" selection-end-column="64" />
               <folding>
-                <element signature="e#0#19#0" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/pages/Home/about.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="45" column="28" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/controller/view/home.py">
+        <entry file="file://$PROJECT_DIR$/static/home/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="45" column="28" lean-forward="true" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
+            <state relative-caret-position="355">
+              <caret line="48" column="71" selection-start-line="48" selection-start-column="71" selection-end-line="48" selection-end-column="71" />
               <folding>
-                <element signature="e#0#43#0" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#figure#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#figure#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#figure#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#figure#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#figure#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#figure#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -146,8 +136,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>red</find>
-      <find>text-cen</find>
       <find>danger</find>
       <find>url</find>
       <find>home/css</find>
@@ -176,6 +164,8 @@
       <find>portfolio</find>
       <find>product</find>
       <find>.rl</find>
+      <find>result</find>
+      <find>search</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -223,11 +213,8 @@
         <option value="$PROJECT_DIR$/controller/view/product.py" />
         <option value="$PROJECT_DIR$/templates/pages/product/index.html" />
         <option value="$PROJECT_DIR$/templates/layout/productLayout.html" />
-        <option value="$PROJECT_DIR$/controller/api/product.py" />
         <option value="$PROJECT_DIR$/static/home/css/home.css" />
         <option value="$PROJECT_DIR$/model/product.py" />
-        <option value="$PROJECT_DIR$/static/home/js/index.js" />
-        <option value="$PROJECT_DIR$/templates/pages/Home/product.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/locale.py" />
@@ -235,6 +222,9 @@
         <option value="$PROJECT_DIR$/model/about.py" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/templates/pages/Home/about.html" />
+        <option value="$PROJECT_DIR$/templates/pages/Home/product.html" />
+        <option value="$PROJECT_DIR$/controller/api/product.py" />
+        <option value="$PROJECT_DIR$/static/home/js/index.js" />
       </list>
     </option>
   </component>
@@ -256,13 +246,28 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="NewPearlProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="NewPearlProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewPearlProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewPearlProject" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewPearlProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewPearlProject" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewPearlProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewPearlProject" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NewPearlProject" type="b2602c69:ProjectViewProjectNode" />
@@ -290,10 +295,36 @@
               <item name="img" type="462c0819:PsiDirectoryNode" />
               <item name="team" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="NewPearlProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewPearlProject" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewPearlProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewPearlProject" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewPearlProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewPearlProject" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewPearlProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewPearlProject" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="Home" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -305,19 +336,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/templates/pages/privacy_policy" />
-      <recent name="$PROJECT_DIR$/static/product" />
-      <recent name="$PROJECT_DIR$/static/img" />
-      <recent name="$PROJECT_DIR$/templates/pages/Home" />
-      <recent name="$PROJECT_DIR$/static/js" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/static/home/img/home" />
       <recent name="$PROJECT_DIR$/templates/pages/privacy_policy" />
       <recent name="$PROJECT_DIR$/static/home/img/team" />
       <recent name="$PROJECT_DIR$/static" />
       <recent name="$PROJECT_DIR$/templates/common/home" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates/pages/privacy_policy" />
+      <recent name="$PROJECT_DIR$/static/product" />
+      <recent name="$PROJECT_DIR$/static/img" />
+      <recent name="$PROJECT_DIR$/templates/pages/Home" />
+      <recent name="$PROJECT_DIR$/static/js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -419,8 +450,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1852" y="54" width="1680" height="949" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1935287" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1959707" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -434,7 +466,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5006305" side_tool="true" weight="0.36872813" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49936947" visible="true" weight="0.39439908" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49936947" visible="true" weight="0.21936989" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32905483" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -475,13 +507,7 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/data_config.py" />
-    <entry file="file://$PROJECT_DIR$/static/home/img/map-image.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/home/img/portfolio/1.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/home/img/header-bg.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/static/home/vendor/bootstrap/css/bootstrap.css">
@@ -509,13 +535,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/staff.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/common/home/footer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -534,20 +553,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/pages/Home/team.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="20" lean-forward="true" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/pages/Home/brands.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -648,20 +653,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/result.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/api/product.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/model/product.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -697,13 +688,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/home/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/home/css/home.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5550">
@@ -725,13 +709,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/pages/Home/product.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="84" column="21" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/language.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -746,9 +723,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/home/img/team/oriannawang.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/view/home.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="40" column="41" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/pages/Home/team.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="26" column="20" lean-forward="true" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/pages/Home/brands.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/pages/Home/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" column="26" lean-forward="true" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
+        <state relative-caret-position="506">
           <caret line="35" selection-start-line="35" selection-end-line="35" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
@@ -756,29 +774,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/pages/Home/about.html">
+    <entry file="file://$PROJECT_DIR$/model/result.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="28" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
+        <state relative-caret-position="210">
+          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.py">
+    <entry file="file://$PROJECT_DIR$/model/staff.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        <state relative-caret-position="90">
+          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/home/img/team/orianna.jpeg">
+    <entry file="file://$PROJECT_DIR$/static/home/img/map-image.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/view/home.py">
+    <entry file="file://$PROJECT_DIR$/static/home/img/header-bg.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/api/product.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="45" column="28" lean-forward="true" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
+        <state relative-caret-position="450">
+          <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
           <folding>
-            <element signature="e#0#43#0" expanded="true" />
+            <marker date="1577672113749" expanded="true" signature="960:965" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/pages/Home/product.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="82" column="64" selection-start-line="82" selection-start-column="39" selection-end-line="82" selection-end-column="64" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/home/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="48" column="71" selection-start-line="48" selection-start-column="71" selection-end-line="48" selection-end-column="71" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#figure#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#figure#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#figure#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#figure#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#figure#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#figure#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

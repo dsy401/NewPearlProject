@@ -26,8 +26,10 @@ function OpenPortfolioModal(name,description,id) {
         url: "/api/product/" + id,
         beforeSend: function () {
             document.getElementById("portfolioModalProduct").innerHTML = ""
+            document.getElementById("productLoadingSpinner").style.display = "inline-block"
         },
         success: function (result) {
+             document.getElementById("productLoadingSpinner").style.display = "none"
             let result_string = "";
             result.data.forEach(s=>{
                 result_string += '<figure class="col-lg-3 col-md-4 col-sm-6 portfolio-item">' +
@@ -42,4 +44,52 @@ function OpenPortfolioModal(name,description,id) {
     })
 }
 
-
+function SearchByProductCode() {
+    let text = document.getElementById('ProductSearchCode').value;
+    document.getElementById("portfolioModalDescription").innerHTML = ""
+    if (text.length <=0){
+        document.getElementById('portfolioModalTitle').innerText = 'Search Result - ALL';
+        $.ajax({
+            url: '/api/product',
+            beforeSend: function () {
+                document.getElementById("portfolioModalProduct").innerText = ""
+                document.getElementById("productLoadingSpinner").style.display = "inline-block"
+            },
+            success: function (result) {
+                document.getElementById("productLoadingSpinner").style.display = "none"
+                let result_string = ""
+                result.data.forEach(s=>{
+                    result_string += '<figure class="col-lg-3 col-md-4 col-sm-6 portfolio-item">' +
+                        '<a href=https://www.newpearl.co.nz/index.php/product/'+ s.code+' data-size="1600x1067">' +
+                        '<img style="height: 224px;width: 224px" alt="picture" src='+ s.image +' class="img-fluid" alt="picture" />' +
+                        '</a>' +
+                        '<p style="color:#000;">'+ s.code +'</p>'+
+                        '</figure>'
+                })
+                document.getElementById('portfolioModalProduct').innerHTML = result_string
+            }
+        })
+        return;
+    }
+    document.getElementById('portfolioModalTitle').innerText = 'Search Result - ' + text;
+    $.ajax({
+        url: '/api/product/search/' + text.toUpperCase(),
+        beforeSend: function () {
+            document.getElementById("portfolioModalProduct").innerText = ""
+            document.getElementById("productLoadingSpinner").style.display = "inline-block"
+        },
+        success: function (result) {
+            document.getElementById("productLoadingSpinner").style.display = "none"
+            let result_string = ""
+            result.data.forEach(s=>{
+                result_string += '<figure class="col-lg-3 col-md-4 col-sm-6 portfolio-item">' +
+                    '<a href=https://www.newpearl.co.nz/index.php/product/'+ s.code+' data-size="1600x1067">' +
+                    '<img style="height: 224px;width: 224px" alt="picture" src='+ s.image +' class="img-fluid" alt="picture" />' +
+                    '</a>' +
+                    '<p style="color:#000;">'+ s.code +'</p>'+
+                    '</figure>'
+            })
+            document.getElementById('portfolioModalProduct').innerHTML = result_string
+        }
+    })
+}
