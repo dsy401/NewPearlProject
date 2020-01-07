@@ -12,7 +12,7 @@
                     <label><i class="fa fa-search"></i></label>
                 </div>
                 <div class="d-inline-block">
-                    <input  id="ProductSearchCode" value="" placeholder="Search By Code ..." class="form-control"/>
+                    <input  id="ProductSearchCode" value="" placeholder="{{ locale['product']['search'] }}" class="form-control"/>
                 </div>
                 <div class="d-inline-block">
                     <button data-toggle="modal" data-target="#portfolioModal" onclick="SearchByProductCode()" class="btn btn-primary">
@@ -67,12 +67,16 @@
     <div class="portfolio-modal modal fade" id="portfolioModal" tabindex="-1" role="dialog" aria-hidden="true">
                     <div class="modal-dialog">
                       <div class="modal-content">
-                          <div class="close-modal" data-dismiss="modal">
+                          <div id="back-button" style="opacity: 0" onclick="ModalBack()" class="modal-back">
+                              <span class="back-word">{% if locale['language']=="English" %}Back{% else %}返回{% endif %}</span>
+                          </div>
+                          <div onclick="ModalClose()" class="close-modal" data-dismiss="modal">
                               <div class="lr">
                                   <div class="rl"></div>
                               </div>
                           </div>
-                        <div class="container portfolioproduct">
+
+                        <div style="opacity: 1" id="portfolioproduct" class="container portfolioproduct">
                           <div class="row">
                             <div class="col-lg-12 mx-auto">
                               <div class="modal-body">
@@ -93,14 +97,18 @@
                                 </div>
 
                               </div>
-                                <button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fas fa-times"></i> Close</button>
+                                <button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fas fa-times"></i> {% if locale['language']=="English" %}Close{% else %}关闭{% endif %}</button>
                             </div>
                           </div>
                         </div>
+
+                          <div style="opacity: 0;display: none" id="portfolioproductdetail" class="container portfolioproductdetail">
+
+                          </div>
+
                       </div>
 
                     </div>
-               </div>
-
+    </div>
 
 

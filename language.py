@@ -40,7 +40,7 @@ language = {
         },
         "header": {
             "title": "Welcome to Thriving Building!",
-            "content": "It's Nice To Meet You",
+            "content": "Flooring, tile and accessory.",
             "button": "tell me more"
         },
         "service": {
@@ -48,7 +48,7 @@ language = {
             "subtitle": 'Lorem ipsum dolor sit amet consectetur.',
             "items":[
                 {
-                    "title": "E-Commerce",
+                    "title": "Retail",
                     "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.",
                     "logo_class": 'fas fa-shopping-cart fa-stack-1x fa-inverse'
                 },
@@ -67,6 +67,7 @@ language = {
         "product": {
             "title": "Our Product",
             "subtitle": 'You will find what you want',
+            "search": "Search By Code or Name  ..."
         },
         "about": {
             "title": "About Our Company",
@@ -150,7 +151,7 @@ language = {
         },
         "header": {
             "title": "欢迎来到 Thriving Building!",
-            "content": "很高兴看到你们的到来",
+            "content": "我们提供各种优质地板，瓷砖和配件。",
             "button": "了解更多"
         },
         "service": {
@@ -158,7 +159,7 @@ language = {
             "subtitle": '这是测试这是测试这是测试这是测试这是测试',
             "items":[
                 {
-                    "title": "电子商务",
+                    "title": "零售",
                     "content": "这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试",
                     "logo_class": 'fas fa-shopping-cart fa-stack-1x fa-inverse'
                 },
@@ -177,6 +178,7 @@ language = {
         "product": {
             "title": "我们的产品",
             "subtitle": '你会找到你喜爱的产品',
+            "search": "搜索产品编号或名字 ..."
         },
         "about": {
             "title": "关于公司",

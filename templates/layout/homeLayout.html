@@ -8,6 +8,7 @@
     {% include 'common/home/head.html' %}
 </head>
 <body>
+    <div style="display: none" id="language">{{ locale['language'] }}</div>
     {% include 'pages/Home/navbar.html' %}
     {% include 'common/home/header.html' %}
     {% block content %}{% endblock %}

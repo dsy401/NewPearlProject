@@ -695,5 +695,27 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 }
 
 .portfolioproduct{
-    transition: ease-in-out 1s;
+    transition: ease-in-out 0.5s;
+}
+.portfolioproductdetail{
+    transition: ease-in-out 0.5s;
+}
+
+.modal-back{
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  width: 75px;
+  height: 75px;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.back-word{
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+.modal-back:hover{
+  opacity: 0.3;
 }
