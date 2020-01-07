@@ -260,3 +260,60 @@ function OpenQRCodeModal(name,image) {
         '</p>' +
         '<img class="img-fluid" src="'+ image +'"/>'
 }
+
+
+var IWindowWidth = window.innerWidth;
+var swiper;
+    if (IWindowWidth < 576){
+        swiper = new Swiper('.swiper-container', {
+                  slidesPerView: 1,
+                  spaceBetween: 20,
+                  pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                  },
+                });
+    }else if (IWindowWidth <768 ) {
+        swiper = new Swiper('.swiper-container', {
+            slidesPerView: 2,
+            spaceBetween: 20,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+        });
+    }else if (IWindowWidth < 992){
+        swiper = new Swiper('.swiper-container', {
+            slidesPerView: 2,
+            spaceBetween: 20,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+        });
+    }
+    else{
+        swiper = new Swiper('.swiper-container', {
+                  slidesPerView: 3,
+                  spaceBetween: 20,
+                  pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                  },
+                });
+    }
+
+
+$( window ).resize(function() {
+    var WindowWidth = window.innerWidth;
+    if (WindowWidth < 576){
+        swiper.params.slidesPerView = 1
+    }else if (WindowWidth <768){
+        swiper.params.slidesPerView = 2
+    }else if (WindowWidth < 992){
+        swiper.params.slidesPerView = 2
+    }
+    else{
+        swiper.params.slidesPerView = 3
+    }
+});

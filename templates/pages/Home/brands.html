@@ -6,28 +6,57 @@
                 <h3 class="section-subheading text-muted">{{ locale['brands']['subtitle'] }}</h3>
             </div>
         </div>
+        <style>
+            .swiper-container {
+              width: 90%;
+              height: 100%;
+            }
+            .swiper-slide {
+              text-align: center;
+              font-size: 18px;
+              background: #fff;
+              /* Center slide text vertically */
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: -webkit-flex;
+              display: flex;
+              -webkit-box-pack: center;
+              -ms-flex-pack: center;
+              -webkit-justify-content: center;
+              justify-content: center;
+              -webkit-box-align: center;
+              -ms-flex-align: center;
+              -webkit-align-items: center;
+              align-items: center;
+            }
+          </style>
         <div class="row">
-            {% for i in range(0,brands_count) %}
-                <div class="p-3 col-sm-6 col-xs-1 col-lg-3 col-xl-3">
-                    <div class="card-wrapper">
-                        <div class="card-img pb-2">
-                            <img class="img-fluid" src="{{ brands[i]['image'] }}"/>
-                        </div>
-                        <div class="card-box text-left">
-                            {% if locale['language']=="English" %}
-                                <h6>{{ brands[i]['name'] }}</h6>
-                            {% else %}
-                                <h6>{{ brands[i]['name_cn'] }}</h6>
-                            {% endif %}
-                            {% if locale['language']=="English" %}
-                                <p style="color: #767676">{{ brands[i]['description'] }}</p>
-                            {% else %}
-                                <p style="color: #767676">{{ brands[i]['description_cn'] }}</p>
-                            {% endif %}
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    {% for i in range(0,brands_count) %}
+                        <div class="swiper-slide">
+                            <div class="card-wrapper">
+                                <div class="card-img pb-2">
+                                    <img style="width: 329px;height: 86px" src="{{ brands[i]['image'] }}"/>
+                                </div>
+                                <div class="card-box text-left">
+                                {% if locale['language']=="English" %}
+                                    <h6>{{ brands[i]['name'] }}</h6>
+                                {% else %}
+                                    <h6>{{ brands[i]['name_cn'] }}</h6>
+                                {% endif %}
+                                {% if locale['language']=="English" %}
+                                    <p style="color: #767676">{{ brands[i]['description'] }}</p>
+                                {% else %}
+                                    <p style="color: #767676">{{ brands[i]['description_cn'] }}</p>
+                                {% endif %}
                         </div>
                     </div>
+                        </div>
+                    {% endfor %}
                 </div>
-            {% endfor %}
+                <div class="swiper-pagination"></div>
+            </div>
         </div>
     </div>
 </section>
