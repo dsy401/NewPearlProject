@@ -104,7 +104,7 @@ function ToProductDetail(product) {
     let table = "";
     if (langauge == "English"){
         table =
-        "<table class='table table-bordered'>" +
+        "<table class='table table-bordered text-center'>" +
             "<thead>" +
                 "<tr>" +
                     "<th scope='row'>"+ "Color" +"</th>"+
@@ -151,7 +151,7 @@ function ToProductDetail(product) {
         "</table>"
     }else{
         table =
-        "<table class='table table-bordered'>" +
+        "<table class='table table-bordered text-center'>" +
             "<thead>" +
                 "<tr>" +
                     "<th scope='row'>"+ "颜色" +"</th>"+
@@ -201,7 +201,7 @@ function ToProductDetail(product) {
     console.log(back_word)
     // 操作
     document.getElementById("portfolioproductdetail").innerHTML =
-        "<div class='row'>"+
+        "<div class='row text-center'>"+
         "<div class='col-lg-12 mx-auto'>" +
         "<div class='modal-body'>" +
         "<h2 class='text-uppercase'>"+ product.code +"</h2>"+
@@ -209,10 +209,10 @@ function ToProductDetail(product) {
         "</div>"+
         "</div>"+
         "<div class='row'>" +
-        "<div class='col-lg-6 col-sm-12'>" +
-        "<img class='img-fluid' alt='product' src='"+ product.image+"'/>"+
+        "<div class='col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6'>" +
+        "<img style='max-height: 524px' class='img-fluid text-center' alt='product' src='"+ product.image+"'/>"+
         "</div>" +
-        "<div class='col-lg-6 col-sm-12'>" +
+        "<div class='col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6'>" +
             table +
         "</div>"+
         "</div>"+
