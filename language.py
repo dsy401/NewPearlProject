@@ -45,17 +45,17 @@ language = {
         },
         "service": {
             "title": "Services",
-            "subtitle": 'Lorem ipsum dolor sit amet consectetur.',
+            "subtitle": 'Our company mainly focus on retail.',
             "items":[
                 {
                     "title": "Retail",
-                    "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.",
+                    "content": "We are the flooring retail expert. We supply a full range of high-quality flooring materials, tiles and accessories.",
                     "logo_class": 'fas fa-shopping-cart fa-stack-1x fa-inverse'
                 },
                 {
-                    "title": "Responsive Design",
-                    "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.",
-                    "logo_class": 'fas fa-laptop fa-stack-1x fa-inverse'
+                    "title": "Floor installation",
+                    "content": "When purchasing wood flooring related products in our company, we can provide floor installation services for free.",
+                    "logo_class": 'fas fa-wrench fa-stack-1x fa-inverse'
                 },
                 {
                     "title": "Web Security",
@@ -156,17 +156,17 @@ language = {
         },
         "service": {
             "title": "服务",
-            "subtitle": '这是测试这是测试这是测试这是测试这是测试',
+            "subtitle": '我们的公司主要专注于产品零售',
             "items":[
                 {
                     "title": "零售",
-                    "content": "这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试",
+                    "content": "我们是地板零售专家。我们提供各种优质地板材料，瓷砖和配件。",
                     "logo_class": 'fas fa-shopping-cart fa-stack-1x fa-inverse'
                 },
                 {
-                    "title": "响应式布局",
-                    "content": "这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试",
-                    "logo_class": 'fas fa-laptop fa-stack-1x fa-inverse'
+                    "title": "地板安装",
+                    "content": "在我们公司购买木地板相关的产品，我们公司可以免费地提供地板安装服务。",
+                    "logo_class": 'fas fa-wrench fa-stack-1x fa-inverse'
                 },
                 {
                     "title": "网站安全",
