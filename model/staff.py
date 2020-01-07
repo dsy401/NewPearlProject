@@ -7,5 +7,5 @@ class staff(Document):
     role_cn = StringField(required=True)
     facebook = StringField(required=True)
     linkedin = StringField(required=True)
-    twitter = StringField(required=True)
+    wechat = StringField(required=True)
     image = StringField(required=True)

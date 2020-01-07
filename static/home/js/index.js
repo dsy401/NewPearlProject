@@ -249,3 +249,14 @@ function ModalBack() {
         document.getElementById("portfolioproduct").style.opacity = "1";
     },600)
 }
+
+function OpenQRCodeModal(name,image) {
+
+    const langauge = document.getElementById("language").innerText
+    const description = langauge=="English"?'Add ' + name + ' as a friend':'添加' + name + '为好友'
+    document.getElementById('qrcode').innerHTML =
+        '<p class="item-intro text-muted">' +
+        description +
+        '</p>' +
+        '<img class="img-fluid" src="'+ image +'"/>'
+}
