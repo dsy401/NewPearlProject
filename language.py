@@ -1,6 +1,7 @@
 language = {
     'en': {
         "language": "English",
+        "company_name": "Thriving Building",
         "navbar":{
             "menu": "Menu",
             "nav_item": [
@@ -40,7 +41,7 @@ language = {
         },
         "header": {
             "title": "Welcome to Thriving Building!",
-            "content": "Flooring, tile and accessory.",
+            "content": "Tiles, Wood Floors, Carpets",
             "button": "tell me more"
         },
         "service": {
@@ -53,14 +54,14 @@ language = {
                     "logo_class": 'fas fa-shopping-cart fa-stack-1x fa-inverse'
                 },
                 {
-                    "title": "Floor installation",
-                    "content": "When purchasing wood flooring related products in our company, we can provide floor installation services for free.",
+                    "title": "Installation",
+                    "content": "When purchasing wood floor, tile and carpet related products in our company, we can provide customers with preferential installation services.",
                     "logo_class": 'fas fa-wrench fa-stack-1x fa-inverse'
                 },
                 {
-                    "title": "Web Security",
-                    "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.",
-                    "logo_class" : 'fas fa-lock fa-stack-1x fa-inverse'
+                    "title": "Consultation ",
+                    "content": "Our company provides consulting services related to floor, tile and carpet. Understand the needs of customers and choose the products that are most suitable for them.",
+                    "logo_class" : 'fas fa-question fa-stack-1x fa-inverse'
                 }
             ]
         },
@@ -71,12 +72,12 @@ language = {
         },
         "about": {
             "title": "About Our Company",
-            "subtitle": 'Lorem ipsum dolor sit amet consectetur.',
+            "subtitle": 'Thriving Building Ltd (TVBL) is a New Zealand based building material supplier, the main business are tiles, wood floors, carpets selling and installation, including glass, waterproof and some other auxiliary materials. TVBL always devote to supply high quality materials and excellent job, creating a comprehensive and integrated service, saving money and time for customers and clients. in the process of sevice, TVBL receives a lot of highly praise from different group of people.',
         },
         "team": {
             "title": "Our Amazing Team",
             "subtitle": "Four company backbones",
-            "foot_content": "We are a professional team and we will bring the best products and best services to consumers. Our purpose is for customer to use the best tiles.We are a professional team and we will bring the best products and best services to consumers. Our purpose is for customer to use the best tiles."
+            "foot_content": "We are a professional team, we will bring the best products and best services to consumers. Our follow is the same: devote to supply high quality materials and excellent job, creating a comprehensive and integrated service, saving money and time for customers and clients."
         },
         "contact": {
             "title": "Contact Us",
@@ -112,6 +113,7 @@ language = {
     },
     "cn": {
         "language": "Chinese",
+        "company_name": "鸿熙建筑公司",
         "navbar":{
             "menu": "菜单",
             "nav_item": [
@@ -150,8 +152,8 @@ language = {
             ]
         },
         "header": {
-            "title": "欢迎来到 Thriving Building!",
-            "content": "我们提供各种优质地板，瓷砖和配件。",
+            "title": "欢迎来到鸿熙建筑公司!",
+            "content": "我们提供各种优质地板，瓷砖和地毯。",
             "button": "了解更多"
         },
         "service": {
@@ -160,18 +162,18 @@ language = {
             "items":[
                 {
                     "title": "零售",
-                    "content": "我们是地板零售专家。我们提供各种优质地板材料，瓷砖和配件。",
+                    "content": "我们是地板零售专家。我们提供各种优质地板材料，瓷砖，地毯和各种配件。",
                     "logo_class": 'fas fa-shopping-cart fa-stack-1x fa-inverse'
                 },
                 {
-                    "title": "地板安装",
-                    "content": "在我们公司购买木地板相关的产品，我们公司可以免费地提供地板安装服务。",
+                    "title": "安装",
+                    "content": "在我们公司购买木地板，瓷砖和地毯相关的产品，我们公司可以给顾客提供优惠的安装服务。",
                     "logo_class": 'fas fa-wrench fa-stack-1x fa-inverse'
                 },
                 {
-                    "title": "网站安全",
-                    "content": "这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试",
-                    "logo_class": 'fas fa-lock fa-stack-1x fa-inverse'
+                    "title": "咨询",
+                    "content": "我们公司提供地板，瓷砖和地毯相关的咨询服务。了解顾客的需求，为顾客们选择出最适合他们的产品。",
+                    "logo_class": 'fas fa-question fa-stack-1x fa-inverse'
                 }
             ]
         },
@@ -182,12 +184,12 @@ language = {
         },
         "about": {
             "title": "关于公司",
-            "subtitle": '这是测试这是测试这是测试这是测试这是测试',
+            "subtitle": '鸿熙建筑公司是新西兰本地大型建筑材料供应商之一，主营新明珠品牌瓷 砖，地板，地毯，玻璃等建筑材料的销售和安装，包括防水、地平处理等多 种辅助材料，鸿熙建筑始终致力于把最好的产品和服务提供给客户，一站式、 一条龙，为客户节省成本，得到了广大客户的一致好评。买建材就找鸿熙建 筑，产品放心，铺工细心，售后安心。',
         },
         "team": {
             "title": "我们的团队",
             "subtitle": "四位公司核心骨干",
-            "foot_content": "我们是一支专业的团队，我们会把最好的产品和最好的服务带给消费者。我们的宗旨是让客户使用最好的瓷砖，从而感受到家的感觉。我们是一支专业的团队，我们会把最好的产品和最好的服务带给消费者。我们的宗旨是让客户使用最好的瓷砖，从而感受到家的感觉。"
+            "foot_content": "我们是一支专业的团队，我们会把最好的产品和最好的服务带给消费者。我们的宗旨跟公司的宗旨一样：致力于把最好的产品和服务提供给客户，一站式、 一条龙，为客户节省成本，得到了广大客户的一致好评。买建材就找鸿熙建 筑，产品放心，铺工细心，售后安心。"
         },
         "contact": {
             "title": "联系我们",

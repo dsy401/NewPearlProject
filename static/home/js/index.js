@@ -198,10 +198,9 @@ function ToProductDetail(product) {
         "</table>"
     }
     const back_word = langauge=="English"?" Back":" 返回"
-    console.log(back_word)
     // 操作
     document.getElementById("portfolioproductdetail").innerHTML =
-        "<div class='row text-center'>"+
+        "<div style='margin-right: auto;margin-left: auto class='row text-center'>"+
         "<div class='col-lg-12 mx-auto'>" +
         "<div class='modal-body'>" +
         "<h2 class='text-uppercase'>"+ product.code +"</h2>"+
@@ -266,26 +265,35 @@ var IWindowWidth = window.innerWidth;
 var swiper;
     if (IWindowWidth < 576){
         swiper = new Swiper('.swiper-container', {
-                  slidesPerView: 1,
-                  spaceBetween: 20,
-                  pagination: {
-                    el: '.swiper-pagination',
-                    clickable: true,
-                  },
-                });
-    }else if (IWindowWidth <768 ) {
-        swiper = new Swiper('.swiper-container', {
-            slidesPerView: 2,
-            spaceBetween: 20,
+            slidesPerView: 1,
+            spaceBetween: 30,
+            autoplay: {
+                delay: 2000,
+            },
             pagination: {
                 el: '.swiper-pagination',
                 clickable: true,
             },
         });
-    }else if (IWindowWidth < 992){
+    }else if (IWindowWidth <767 ) {
+        swiper = new Swiper('.swiper-container', {
+            slidesPerView: 1,
+            spaceBetween: 15,
+            autoplay: {
+                delay: 2000,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+        });
+    }else if (IWindowWidth < 1210){
         swiper = new Swiper('.swiper-container', {
             slidesPerView: 2,
-            spaceBetween: 20,
+            spaceBetween: 15,
+            autoplay: {
+                delay: 2000,
+            },
             pagination: {
                 el: '.swiper-pagination',
                 clickable: true,
@@ -294,13 +302,16 @@ var swiper;
     }
     else{
         swiper = new Swiper('.swiper-container', {
-                  slidesPerView: 3,
-                  spaceBetween: 20,
-                  pagination: {
-                    el: '.swiper-pagination',
-                    clickable: true,
-                  },
-                });
+            slidesPerView: 3,
+            spaceBetween: 15,
+            autoplay: {
+                delay: 2000,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+        });
     }
 
 
@@ -308,12 +319,22 @@ $( window ).resize(function() {
     var WindowWidth = window.innerWidth;
     if (WindowWidth < 576){
         swiper.params.slidesPerView = 1
-    }else if (WindowWidth <768){
-        swiper.params.slidesPerView = 2
-    }else if (WindowWidth < 992){
+    }else if (WindowWidth <767){
+        swiper.params.slidesPerView = 1
+    }else if (WindowWidth < 1210){
         swiper.params.slidesPerView = 2
     }
     else{
         swiper.params.slidesPerView = 3
     }
+});
+
+
+
+$('.swiper-slide').on('mouseover', function() {
+  swiper.autoplay.stop();
+});
+
+$('.swiper-slide').on('mouseout', function() {
+  swiper.autoplay.start();
 });

@@ -13,7 +13,7 @@
             {% for i in range(0,abouts_count) %}
                 <li>
               <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="{{ abouts[i].image }}" alt="">
+                <img style="height: 100%" class="rounded-circle img-fluid" src="{{ abouts[i].image }}" alt="">
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
@@ -37,7 +37,7 @@
             {% endfor %}
             <li class="timeline-inverted">
               <div class="timeline-image">
-                  {% if locale['langauge'] == 'English' %}
+                  {% if locale['language'] == 'English' %}
                       <h4>
                           Be Part
                           <br>Of Our
