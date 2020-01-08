@@ -39,11 +39,38 @@ language = {
                 }
             ]
         },
-        "header": {
-            "title": "Welcome to Thriving Building!",
-            "content": "Tiles, Wood Floors, Carpets",
-            "button": "tell me more"
-        },
+        "header": [
+            {
+                "title": "Welcome to Thriving Building!",
+                "content": "Tiles, Wood Floors, Carpets",
+                "button": "tell me more",
+                "image": "/static/home/img/header-bg-1.jpeg"
+            },
+            {
+                "title": "Welcome to Thriving Building!",
+                "content": "Tiles, Wood Floors, Carpets",
+                "button": "tell me more",
+                "image": "/static/home/img/header-bg-2.jpg"
+            },
+            {
+                "title": "Welcome to Thriving Building!",
+                "content": "Tiles, Wood Floors, Carpets",
+                "button": "tell me more",
+                "image": "/static/home/img/header-bg-3.jpeg"
+            },
+            {
+                "title": "Welcome to Thriving Building!",
+                "content": "Tiles, Wood Floors, Carpets",
+                "button": "tell me more",
+                "image": "/static/home/img/header-bg-4.png"
+            },
+            {
+                "title": "Welcome to Thriving Building!",
+                "content": "Tiles, Wood Floors, Carpets",
+                "button": "tell me more",
+                "image": "/static/home/img/header-bg-5.jpeg"
+            },
+        ],
         "service": {
             "title": "Services",
             "subtitle": 'Our company mainly focus on retail.',

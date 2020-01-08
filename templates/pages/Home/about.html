@@ -17,10 +17,12 @@
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4>{{ abouts[i].timeline }}</h4>
+
                   {% if locale['language']== 'English' %}
+                      <h4>{{ abouts[i].timeline }}</h4>
                       <h4 class="subheading">{{ abouts[i]['subheading'] }}</h4>
                   {% else %}
+                      <h4>{{ abouts[i].timeline_cn }}</h4>
                       <h4 class="subheading">{{ abouts[i]['subheading_cn'] }}</h4>
                   {% endif %}
                 </div>

@@ -172,7 +172,7 @@ img::-moz-selection {
 
 header.masthead {
   text-align: center;
-  background-image: url("/static/home/img/header-bg.jpg");
+  /*background-image: url("/static/home/img/header-bg-2.jpg");*/
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
