@@ -41,21 +41,21 @@ language = {
         },
         "header": [
             {
-                "title": "Welcome to Thriving Building!",
-                "content": "Tiles, Wood Floors, Carpets",
-                "button": "tell me more",
+                "title": "",
+                "content": "",
+                "button": "",
                 "image": "/static/home/img/header-bg-1.jpeg"
             },
             {
-                "title": "Welcome to Thriving Building!",
-                "content": "Tiles, Wood Floors, Carpets",
-                "button": "tell me more",
+                "title": "",
+                "content": "",
+                "button": "",
                 "image": "/static/home/img/header-bg-2.jpg"
             },
             {
-                "title": "Welcome to Thriving Building!",
-                "content": "Tiles, Wood Floors, Carpets",
-                "button": "tell me more",
+                "title": "",
+                "content": "",
+                "button": "",
                 "image": "/static/home/img/header-bg-3.jpeg"
             },
             {
@@ -178,11 +178,38 @@ language = {
                 }
             ]
         },
-        "header": {
-            "title": "欢迎来到鸿熙建筑公司!",
-            "content": "我们提供各种优质地板，瓷砖和地毯。",
-            "button": "了解更多"
-        },
+        "header": [
+            {
+                "title": "欢迎来到鸿熙建筑公司",
+                "content": "我们提供各种优质地板，瓷砖和地毯。",
+                "button": "了解更多",
+                "image": "/static/home/img/header-bg-1.jpeg"
+            },
+            {
+                "title": "2019 New Pearl NZ 公司年会",
+                "content": "我们都是专业的",
+                "button": "tell me more",
+                "image": "/static/home/img/header-bg-2.jpg"
+            },
+            {
+                "title": "Welcome to Thriving Building!",
+                "content": "Tiles, Wood Floors, Carpets",
+                "button": "tell me more",
+                "image": "/static/home/img/header-bg-3.jpeg"
+            },
+            {
+                "title": "Welcome to Thriving Building!",
+                "content": "Tiles, Wood Floors, Carpets",
+                "button": "tell me more",
+                "image": "/static/home/img/header-bg-4.png"
+            },
+            {
+                "title": "Welcome to Thriving Building!",
+                "content": "Tiles, Wood Floors, Carpets",
+                "button": "tell me more",
+                "image": "/static/home/img/header-bg-5.jpeg"
+            },
+        ],
         "service": {
             "title": "服务",
             "subtitle": '我们的公司主要专注于产品零售',

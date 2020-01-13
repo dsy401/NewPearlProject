@@ -6,9 +6,26 @@
                 <header style="background-image: url({{ locale['header'][i]['image'] }})" class="masthead">
                     <div class="container">
                         <div class="intro-text">
-                            <div style="color: #ffffff;" class="intro-lead-in">{{ locale['header'][i]['title'] }}</div>
-                            <div style="color: #ffffff;" class="intro-heading text-uppercase">{{ locale['header'][i]['content'] }}</div>
+                            <div style="color: #ffffff;" class="intro-lead-in">
+                                {% if locale['header'][i]['title'] == "" %}
+                                    <br/>
+                                {% else %}
+                                    {{ locale['header'][i]['title'] }}
+                                {% endif %}
+                            </div>
+                            <div style="color: #ffffff;" class="intro-heading text-uppercase">
+                                {% if locale['header'][i]['content'] == "" %}
+                                    <br/><br/>
+                                {% else %}
+                                    {{ locale['header'][i]['content'] }}
+                                {% endif %}
+                            </div>
+                        {% if locale['header'][i]['button'] == "" %}
+                            <a></a>
+                        {% else %}
                             <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">{{locale['header'][i]['button'] }}</a>
+                        {% endif %}
+
                         </div>
                     </div>
                 </header>

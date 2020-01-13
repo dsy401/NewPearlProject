@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="https://www.newpearl.co.nz/wp-content/uploads/2017/10/cropped-logo_icon-32x32.png" sizes="32x32">
+    <link rel="icon" href="https://www.newpearl.co.nz/wp-content/uploads/2017/10/cropped-logo_icon-192x192.png" sizes="192x192">
+    <link rel="apple-touch-icon-precomposed" href="https://www.newpearl.co.nz/wp-content/uploads/2017/10/cropped-logo_icon-180x180.png">
+    <title>Lottery</title>
+    <script>
+
+        var result = [];
+        var lucky_guy = null;
+        window.onload = function(){
+            document.getElementById("result").innerHTML = "<div>Data Loading ... </div>"
+            var xmlhttp = new XMLHttpRequest();
+            xmlhttp.onreadystatechange = function(){
+                if(xmlhttp.status == 200 && xmlhttp.readyState == 4){
+                    result = JSON.parse(xmlhttp.responseText).data
+                    document.getElementById("result").innerHTML = "<div>Everything is Ready!</div>"
+                }
+
+            };
+            xmlhttp.open("GET","/api/lottery",true);
+            xmlhttp.send();
+        };
+
+
+        t=null;
+        function StartClick() {
+            if (t ==null){
+                t = setInterval(function () {
+                    lucky_guy = result[Math.floor(Math.random()*result.length)];
+                    document.getElementById("result").innerHTML =
+                        "<div>"+lucky_guy.name+"</div>"
+                        +   "<div class='phone'>"+ GetLastFourDigits(lucky_guy.phone)+"</div>"
+                },30)
+            }
+        }
+
+
+        function StopClick(){
+            clearInterval(t);
+            t = null;
+        }
+
+
+
+        function GetLastFourDigits(str){
+            if (str.length >=4){
+                let x_num = str.length - 4
+                let lastFourDigits = str.substring(x_num)
+                return "x".repeat(x_num) + lastFourDigits
+            }
+        }
+
+    </script>
+    <style>
+        .box{
+            background:#5BD6F9;
+            width: 90vw;
+            min-height: 30vh;
+            font-size: 15vh;
+            color:#FFFFFF;
+        }
+
+
+        #information{
+            font-size: 15vh;
+            color: green;
+        }
+
+
+        .phone{
+            font-size: 5vh;
+        }
+
+    </style>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
+</head>
+<body>
+<div class="text-center">
+    <img src="https://www.newpearl.co.nz/wp-content/uploads/2017/11/logo_newpearl_13112017.png">
+    <div class="text-center pb-5 pt-5">
+        <button onclick="StartClick()" class="btn btn-primary btn-lg">Start</button>
+        <button onclick="StopClick()" class="btn btn-ligh btn-lg">Stop</button>
+    </div>
+    <div id="result" class="box m-auto text-center">
+
+    </div>
+
+</div>
+</body>
+</html>

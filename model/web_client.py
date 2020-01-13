@@ -1,7 +1,7 @@
 from mongoengine import *
 
 
-class client(Document):
+class web_client(Document):
     name = StringField(required=True)
     phone = StringField(required=True)
     email = StringField(required=True)
