@@ -35,7 +35,7 @@ def delete_lottery_client(id):
         return res.convert_to_json(), 400
 
 
-@lottery_api.route('/api/lottery',methods=['POST'])
+@lottery_api.route('/api/lottery',methods=['Post'])
 @auth.login_required
 def add_lottery_client():
     form = request.form

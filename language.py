@@ -41,9 +41,9 @@ language = {
         },
         "header": [
             {
-                "title": "",
-                "content": "",
-                "button": "",
+                "title": "Welcome to Thriving Building!",
+                "content": "Tiles, Wood Floors, Carpets",
+                "button": "tell me more",
                 "image": "/static/home/img/header-bg-1.jpeg"
             },
             {

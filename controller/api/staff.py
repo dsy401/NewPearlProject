@@ -3,7 +3,8 @@ from model.staff import staff
 from model.result import result
 from utils.auth import auth
 from bson import ObjectId
-
+import cv2 as cv
+from datetime import datetime
 staff_api = Blueprint('staff_api', __name__)
 
 
@@ -23,7 +24,7 @@ def update_staff_data(id):
     found_staff = staff.objects(id=ObjectId(id)).first()
     if found_staff != None:
         form = request.form
-        found_staff.update(phone=form['role'], address=form['role_cn'],email=form['facebook'],linkedin=form['linkedin'],wechat=form['wechat'],image=form['image'])
+        found_staff.update(role=form['role'], role_cn=form['role_cn'],facebook=form['facebook'],linkedin=form['linkedin'])
 
         staffs = staff.objects()
         staff_list = []
@@ -34,7 +35,3 @@ def update_staff_data(id):
     else:
         res = result(False, None, "ID Error or People Not Found")
         return res.convert_to_json(), 400
-
-@staff_api.route('/api/staff/uploadwechat',methods=['POST'])
-def upload_wechat():
-    pass
