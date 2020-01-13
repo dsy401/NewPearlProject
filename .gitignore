@@ -4,3 +4,4 @@ lib
 __pycache__/language.cpython-37.pyc
 model/__pycache__/about.cpython-37.pyc
 model/__pycache__/staff.cpython-37.pyc
+__pycache__/config.cpython-37.pyc
