@@ -8,6 +8,7 @@ from controller.api.product import product_api
 from controller.api.contact import contact_api
 from controller.api.lottery import lottery_api
 from controller.api.local_client import local_client_api
+from controller.api.brand import brand_api
 from controller.api.staff import staff_api
 from controller.api.auth import auth_api
 from flask_mongoengine import MongoEngine
@@ -30,11 +31,14 @@ app.register_blueprint(lottery_api)
 app.register_blueprint(auth_api)
 app.register_blueprint(local_client_api)
 app.register_blueprint(staff_api)
+app.register_blueprint(brand_api)
+
 # View config
 app.register_blueprint(home_view)
 app.register_blueprint(privacy_policy_view)
 app.register_blueprint(term_of_use_view)
 app.register_blueprint(lottery_view)
+
 # db config
 db = MongoEngine(app)
 

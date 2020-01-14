@@ -3,8 +3,7 @@ from model.staff import staff
 from model.result import result
 from utils.auth import auth
 from bson import ObjectId
-import cv2 as cv
-from datetime import datetime
+
 staff_api = Blueprint('staff_api', __name__)
 
 
