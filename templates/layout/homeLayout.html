@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+    {% include 'common/head.html' %}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <meta property="og:url"                content="www.thrivingbuilding.co.nz" />
+    <meta property="og:type"               content="website" />
+    <meta property="og:title"              content="{{ locale['header'][0]['title'] }}" />
+    <meta property="og:description"        content={{ locale['about']['subtitle'] }} />
+    <meta property="og:image"              content="" />
+
     <title>{% block title %}{% endblock %}</title>
     {% include 'common/home/head.html' %}
 </head>
-<body>
+<body style="overflow-x: hidden;">
     <div style="display: none" id="language">{{ locale['language'] }}</div>
     {% include 'pages/Home/navbar.html' %}
     {% include 'common/home/header.html' %}
