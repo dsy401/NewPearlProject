@@ -11,7 +11,7 @@ def upload_image():
     files = request.files
     file = files['image']
     storage_client = storage.Client.from_service_account_json(private_key)
-    bucket = storage_client.get_bucket("thriving_building_img")
+    bucket = storage_client.get_bucket("apt-federation-262220.appspot.com")
     blob = bucket.blob(str(int(time()))+".jpg") #文件名
     blob.upload_from_string(file.read()) #文件
     blob.make_public()
