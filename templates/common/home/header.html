@@ -1,68 +1,26 @@
-{#  <!-- Header -->#}
-{#  <div id="carouselControls1" class="carousel slide" data-ride="carousel">#}
-{#      <div class="carousel-inner">#}
-{#          {% for i in range(0,locale['header']|length) %}#}
-{#              <div class="carousel-item {% if i==0 %}active{% endif %}">#}
-{#                <header style="background-image: url({{ locale['header'][i]['image'] }})" class="masthead">#}
-{#                    <div class="container">#}
-{#                        <div class="intro-text">#}
-{#                            <div style="color: #ffffff;" class="intro-lead-in">#}
-{#                                {% if locale['header'][i]['title'] == "" %}#}
-{#                                    <br/>#}
-{#                                {% else %}#}
-{#                                    {{ locale['header'][i]['title'] }}#}
-{#                                {% endif %}#}
-{#                            </div>#}
-{#                            <div style="color: #ffffff;" class="intro-heading text-uppercase">#}
-{#                                {% if locale['header'][i]['content'] == "" %}#}
-{#                                    <br/><br/>#}
-{#                                {% else %}#}
-{#                                    {{ locale['header'][i]['content'] }}#}
-{#                                {% endif %}#}
-{#                            </div>#}
-{#                        {% if locale['header'][i]['button'] == "" %}#}
-{#                            <a></a>#}
-{#                        {% else %}#}
-{#                            <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">{{locale['header'][i]['button'] }}</a>#}
-{#                        {% endif %}#}
-{##}
-{#                        </div>#}
-{#                    </div>#}
-{#                </header>#}
-{#              </div>#}
-{#          {% endfor %}#}
-{#      </div>#}
-{#      <a class="carousel-control-prev" href="#carouselControls1" role="button" data-slide="prev">#}
-{#          <span class="carousel-control-prev-icon" aria-hidden="true"></span>#}
-{#          <span class="sr-only">Previous</span>#}
-{#      </a>#}
-{#      <a class="carousel-control-next" href="#carouselControls1" role="button" data-slide="next">#}
-{#          <span class="carousel-control-next-icon" aria-hidden="true"></span>#}
-{#          <span class="sr-only">Next</span>#}
-{#      </a>#}
-{#  </div>#}
 
-<header style="background-image: url({{ locale['header'][0]['image'] }})" class="masthead">
+
+<header style="background-image: url({{ locale['header']['image'] }})" class="masthead">
     <div class="container">
         <div class="intro-text">
             <div style="color: #ffffff;" class="intro-lead-in">
-                                {% if locale['header'][0]['title'] == "" %}
+                                {% if locale['header']['title'] == "" %}
                                     <br/>
                                 {% else %}
-                                    {{ locale['header'][0]['title'] }}
+                                    {{ locale['header']['title'] }}
                                 {% endif %}
                             </div>
                             <div style="color: #ffffff;" class="intro-heading text-uppercase">
-                                {% if locale['header'][0]['content'] == "" %}
+                                {% if locale['header']['content'] == "" %}
                                     <br/><br/>
                                 {% else %}
-                                    {{ locale['header'][0]['content'] }}
+                                    {{ locale['header']['content'] }}
                                 {% endif %}
                             </div>
-                        {% if locale['header'][0]['button'] == "" %}
+                        {% if locale['header']['button'] == "" %}
                             <a></a>
                         {% else %}
-                            <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">{{locale['header'][0]['button'] }}</a>
+                            <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">{{locale['header']['button'] }}</a>
                         {% endif %}
 
                         </div>
