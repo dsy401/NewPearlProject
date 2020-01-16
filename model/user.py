@@ -9,12 +9,12 @@ class user(Document):
     staff_id = ObjectIdField(required=True)
 
     def generate_auth_token(self, expiration=36000):
-        s = Serializer(config['private_key'], expires_in=expiration)
+        s = Serializer(config['token']['private_key'], expires_in=expiration)
         return s.dumps({'id': str(self.id)})
 
     @staticmethod
     def verify_auth_token(token):
-        s = Serializer(config['private_key'])
+        s = Serializer(config['token']['private_key'])
         try:
             data = s.loads(token)
         except SignatureExpired:

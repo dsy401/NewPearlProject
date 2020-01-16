@@ -23,7 +23,7 @@ def update_staff_data(id):
     found_staff = staff.objects(id=ObjectId(id)).first()
     if found_staff != None:
         form = request.form
-        found_staff.update(role=form['role'], role_cn=form['role_cn'],facebook=form['facebook'],linkedin=form['linkedin'])
+        found_staff.update(role=form['role'], role_cn=form['role_cn'],facebook=form['facebook'],linkedin=form['linkedin'],wechat=form['wechat'],image=form['image'])
 
         staffs = staff.objects()
         staff_list = []

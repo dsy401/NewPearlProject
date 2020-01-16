@@ -1,8 +1,10 @@
-from flask import Blueprint,jsonify,request
+from flask import Blueprint,request
+from bson import ObjectId
 from model.result import result
 from model.user import user
 from utils.auth import auth
-from bson import ObjectId
+from hashlib import md5
+from config import config
 auth_api = Blueprint('auth_api', __name__)
 
 
@@ -29,18 +31,20 @@ def login():
     ]
     found_user_list = list(user.objects.aggregate(*pipeline))
     found_user = found_user_list[0] if len(found_user_list) != 0 else None
-
     if not found_user:
         res = result(False, None, "User Not Found")
         return res.convert_to_json(), 404
     else:
-        if found_user['password'] == form['password']:
+        hash = md5(config['password']['private_key'].encode("utf-8"))
+        hash.update(form['password'].encode('utf-8'))
+        password = hash.hexdigest()
+        if found_user['password'] == password:
             token = user.objects().first().generate_auth_token()
             data = {
                 'token': token.decode('ascii'),
-                'user_name': found_user['staff_detail']['name']
+                'user_name': found_user['staff_detail']['name'],
+                'user_id': str(found_user['_id'])
             }
-            print(data)
             res = result(True,data,None)
             return res.convert_to_json()
         else:
@@ -54,10 +58,21 @@ def token_validate():
     return result(True,'1',None).convert_to_json()
     # 1 means valid 0 mean invalid
 
-# test case
-# @login_api.route('/api/resource')
-# @auth.login_required
-# def get_resource():
-#     print(request.headers)
-#     return jsonify({ 'data': 'Hello, %s!' })
-#
+
+@auth_api.route('/api/change_password/<user_id>',methods=['POST'])
+@auth.login_required
+def change_password(user_id):
+    form = request.form
+    old_password = form['old_password']
+    new_password = form['new_password']
+    found_user = user.objects(id=ObjectId(user_id)).first()
+
+    old_password_hash = md5(config['password']['private_key'].encode("utf-8"))
+    old_password_hash.update(old_password.encode('utf-8'))
+    if old_password_hash.hexdigest() != found_user['password']:
+        return result(False,None,"The old password is incorrect.").convert_to_json()
+
+    new_password_hash = md5(config['password']['private_key'].encode("utf-8"))
+    new_password_hash.update(new_password.encode('utf-8'))
+    found_user.update(password=new_password_hash.hexdigest())
+    return result(True,"Password changed",None).convert_to_json()
