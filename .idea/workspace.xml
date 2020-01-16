@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59103d30-a042-402c-bab5-3d3ee70717b5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/api/brand.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/api/brand.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language.py" beforeDir="false" afterPath="$PROJECT_DIR$/language.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/home/img/header-bg-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/home/img/header-bg-3.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/home/img/header-bg-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/home/img/header-bg-5.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/common/home/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/common/home/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/layout/homeLayout.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout/homeLayout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/api/general.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/api/general.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +40,7 @@
           <entry key="html" value="13361" />
           <entry key="js" value="5023" />
           <entry key="json" value="84" />
-          <entry key="py" value="24756" />
+          <entry key="py" value="24860" />
           <entry key="txt" value="252" />
           <entry key="yaml" value="8" />
         </counts>
@@ -61,7 +52,7 @@
           <entry key="JSON" value="84" />
           <entry key="JavaScript" value="5004" />
           <entry key="PLAIN_TEXT" value="560" />
-          <entry key="Python" value="24756" />
+          <entry key="Python" value="24860" />
           <entry key="YAML" value="8" />
         </counts>
       </usages-collector>
@@ -102,11 +93,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controller/api/brand.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+            <state relative-caret-position="326">
+              <caret line="63" column="32" lean-forward="true" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="32" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
                 <marker date="1579210877139" expanded="true" signature="1071:1076" ph="..." />
@@ -116,25 +107,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="38" column="34" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controller/api/general.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="135">
+              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
+                <marker date="1579216030375" expanded="true" signature="243:248" ph="..." />
               </folding>
             </state>
           </provider>
@@ -241,8 +221,8 @@
         <option value="$PROJECT_DIR$/templates/common/home/header.html" />
         <option value="$PROJECT_DIR$/templates/layout/homeLayout.html" />
         <option value="$PROJECT_DIR$/controller/general.py" />
-        <option value="$PROJECT_DIR$/controller/api/general.py" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/controller/api/general.py" />
       </list>
     </option>
   </component>
@@ -468,7 +448,7 @@
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.20835894" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.20835894" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4993895" weight="0.32905483" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32905483" />
@@ -480,7 +460,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50406504" side_tool="true" weight="0.3663944" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49593496" weight="0.29871646" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49593496" visible="true" weight="0.29871646" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32905483" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -816,34 +796,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/api/general.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/api/brand.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-            <marker date="1579210877139" expanded="true" signature="1071:1076" ph="..." />
-            <marker date="1579210877139" expanded="true" signature="1634:1635" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="419">
           <caret line="38" column="34" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/api/general.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+            <marker date="1579216030375" expanded="true" signature="243:248" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/api/brand.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="63" column="32" lean-forward="true" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+            <marker date="1579210877139" expanded="true" signature="1071:1076" ph="..." />
+            <marker date="1579210877139" expanded="true" signature="1634:1635" ph="..." />
           </folding>
         </state>
       </provider>
