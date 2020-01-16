@@ -40,7 +40,7 @@
           <entry key="html" value="13361" />
           <entry key="js" value="5023" />
           <entry key="json" value="84" />
-          <entry key="py" value="23873" />
+          <entry key="py" value="23875" />
           <entry key="txt" value="252" />
           <entry key="yaml" value="8" />
         </counts>
@@ -52,7 +52,7 @@
           <entry key="JSON" value="84" />
           <entry key="JavaScript" value="5004" />
           <entry key="PLAIN_TEXT" value="560" />
-          <entry key="Python" value="23873" />
+          <entry key="Python" value="23875" />
           <entry key="YAML" value="8" />
         </counts>
       </usages-collector>
@@ -118,8 +118,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="53" lean-forward="true" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+            <state relative-caret-position="135">
+              <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -787,8 +787,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="53" lean-forward="true" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+        <state relative-caret-position="135">
+          <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
         </state>
       </provider>
     </entry>
