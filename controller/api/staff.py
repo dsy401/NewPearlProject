@@ -34,3 +34,35 @@ def update_staff_data(id):
     else:
         res = result(False, None, "ID Error or People Not Found")
         return res.convert_to_json(), 400
+
+
+@staff_api.route('/api/staff',methods=['POST'])
+@auth.login_required
+def add_one_staff():
+    form = request.form
+    new_staff = staff(name=form['name'],role=form['role'],role_cn=form['role_cn'],facebook=form['facebook'],linkedin=form['linkedin'],wechat=form['wechat'],image=form['image'])
+    new_staff.save()
+
+    staffs = staff.objects()
+    staff_list = []
+    for i in range(staffs.count()):
+        staff_list.append(staffs[i])
+    res = result(True, staff_list, None)
+    return res.convert_to_json()
+
+@staff_api.route('/api/staff/<id>',methods=['Delete'])
+@auth.login_required
+def delete_one_staff(id):
+    found_staff = staff.objects(id=ObjectId(id)).first()
+    if found_staff != None:
+        found_staff.delete()
+
+        staffs = staff.objects()
+        staff_list = []
+        for i in range(staffs.count()):
+            staff_list.append(staffs[i])
+        res = result(True, staff_list, None)
+        return res.convert_to_json()
+    else:
+        res = result(False, None, "ID Error or People Not Found")
+        return res.convert_to_json(), 400
