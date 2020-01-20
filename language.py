@@ -7,35 +7,48 @@ language = {
             "nav_item": [
                 {
                     "name": "Services",
-                    "href": "#services"
+                    "href": "#services",
+                    "n_href": "/#services"
                 },
                 {
                     "name": "Product",
-                    "href": "#portfolio"
+                    "href": "#portfolio",
+                    "n_href": "/#portfolio"
                 },
                 {
                     "name":  "Brands",
-                    "href": "#brands"
+                    "href": "#brands",
+                    "n_href": "/#brands"
                 },
                 {
                     "name": "About",
-                    "href": "#about"
+                    "href": "#about",
+                    "n_href": "/#about"
                 },
                 {
                     "name": "Team",
-                    "href": "#team"
+                    "href": "#team",
+                    "n_href": "/#team"
                 },
                 {
                     "name": "Contact",
-                    "href": "#contact"
+                    "href": "#contact",
+                    "n_href": "/#contact"
                 },
                 {
                     "name": "WHERE",
-                    "href": "#where"
+                    "href": "#where",
+                    "n_href": "/#contact"
+                },
+                {
+                    "name": "NEWS",
+                    "href": "/news",
+                    "n_href": "/news"
                 },
                 {
                     "name": "中文",
-                    "href": "/cn"
+                    "href": "/cn",
+                    "n_href": "/news/cn"
                 }
             ]
         },
@@ -120,35 +133,48 @@ language = {
             "nav_item": [
                 {
                     "name": "服务",
-                    "href": "#services"
+                    "href": "#services",
+                    "n_href": "/cn#services"
                 },
                 {
                     "name": "产品",
-                    "href": "#portfolio"
+                    "href": "#portfolio",
+                    "n_href": "/cn#portfolio"
                 },
                 {
                     "name": "品牌",
-                    "href": "#brands"
+                    "href": "#brands",
+                    "n_href": "/cn#brands"
                 },
                 {
                     "name": "关于",
-                    "href": "#about"
+                    "href": "#about",
+                    "n_href": "/cn#about"
                 },
                 {
                     "name": "团队",
-                    "href": "#team"
+                    "href": "#team",
+                    "n_href":"/cn#team"
                 },
                 {
                     "name": "联系",
-                    "href": "#contact"
+                    "href": "#contact",
+                    "n_href":"/cn#contact"
                 },
                 {
                     "name": "位置",
-                    "href": "#where"
+                    "href": "#where",
+                    "n_href": "/cn#where"
+                },
+                {
+                    "name": "新闻",
+                    "href": "/news/cn",
+                    "n_href": "/news/cn"
                 },
                 {
                     "name": "English",
-                    "href": "/"
+                    "href": "/",
+                    "n_href":"/news"
                 }
             ]
         },

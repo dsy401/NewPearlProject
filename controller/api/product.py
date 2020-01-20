@@ -77,3 +77,24 @@ def update_one_product(id):
     else:
         res = result(False, None, "ID Error or People Not Found")
         return res.convert_to_json(), 400
+
+
+@product_api.route('/api/product/<id>',methods=['DELETE'])
+@auth.login_required
+def delete_one_product(id):
+    found_product = product.objects(id=ObjectId(id)).first()
+
+    if found_product != None:
+        product_category_id = ObjectId(found_product['product_category_id'])
+        found_product.delete()
+
+        products = product.objects(product_category_id=product_category_id)
+        products_list = []
+        for i in range(products.count()):
+            products_list.append(products[i])
+        res = result(True, products_list, None)
+        return res.convert_to_json()
+
+    else:
+        res = result(False, None, "ID Error or People Not Found")
+        return res.convert_to_json(), 400

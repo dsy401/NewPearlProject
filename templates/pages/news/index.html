@@ -1,0 +1,22 @@
+{% extends 'layout/newsLayout.html' %}
+
+{% block content %}
+    <div class="container">
+        <h1>{% if locale['language'] == "English" %}News - About TVBL{% else %}新闻 - 关于TVBL{% endif %}</h1>
+        <hr/>
+    </div>
+    <div style="margin-bottom: 30px" class="container">
+        <div>
+            <div class="row">
+                <div class="col-lg-3">
+                    <img class="img-fluid" alt="" src="https://www.newpearl.co.nz/wp-content/uploads/2018/03/%E5%B7%A5%E5%8E%821-870x400.jpeg">
+                </div>
+                <div style="min-height: 100px;position: relative" class="col-lg-9">
+                    <p>INVITATION TO OUR 2018 NEWPEARL SHOWS AROUND THE WORLD SEE YOU IN BRISBANE AUSTRALIA iopiopio</p>
+                    <em style="font-weight: 400;color: #999;position: absolute;bottom: 0px">1996-10-20 12:00:00</em>
+                </div>
+            </div>
+            <hr style="height: 1px">
+        </div>
+    </div>
+{% endblock %}
