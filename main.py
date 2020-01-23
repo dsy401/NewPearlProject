@@ -8,6 +8,8 @@ from controller.view.lottery import lottery_view
 from controller.api.product import product_api
 from controller.api.contact import contact_api
 from controller.api.lottery import lottery_api
+from controller.api.about import about_api
+from controller.api.news import news_api
 from controller.api.general import general_api
 from controller.api.product_category import product_category_api
 from controller.api.local_client import local_client_api
@@ -38,6 +40,8 @@ app.register_blueprint(brand_api)
 app.register_blueprint(product_category_api)
 app.register_blueprint(upload_image_api)
 app.register_blueprint(general_api)
+app.register_blueprint(news_api)
+app.register_blueprint(about_api)
 
 # View config
 app.register_blueprint(home_view)

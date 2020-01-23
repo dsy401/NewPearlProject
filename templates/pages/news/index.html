@@ -5,15 +5,15 @@
         <h1>{% if locale['language'] == "English" %}News - About TVBL{% else %}新闻 - 关于TVBL{% endif %}</h1>
         <hr/>
     </div>
-    <div style="margin-bottom: 30px" class="container">
+    <div style="margin-bottom: 30px; min-height: 70vh" class="container">
         {% for i in range(0,news_titles_count) %}
             <div>
             <div class="row">
                 <div class="col-lg-3">
-                    <img class="img-fluid" alt="" src="{{ news_titles[i]['image'] }}">
+                    <a href="{% if locale['language'] == 'English' %}/news/{{ news_titles[i]['id'] }}{% else %}/news/cn/{{ news_titles[i]['id'] }}{% endif %}"><img class="img-fluid" alt="" src="{{ news_titles[i]['image'] }}"></a>
                 </div>
                 <div style="min-height: 100px;position: relative" class="col-lg-9">
-                    <p>{% if locale['language']=="English" %}{{ news_titles[i]['title'] }}{% else %}{{ news_titles[i]['title_cn'] }}{% endif %}</p>
+                    <a style="color: black" href="{% if locale['language'] == 'English' %}/news/{{ news_titles[i]['id'] }}{% else %}/news/cn/{{ news_titles[i]['id'] }}{% endif %}"><p>{% if locale['language']=="English" %}{{ news_titles[i]['title'] }}{% else %}{{ news_titles[i]['title_cn'] }}{% endif %}</p></a>
                     <em style="font-weight: 400;color: #999;position: absolute;bottom: 0px">
                         {{ news_titles[i]['created_at'] }}
                     </em>

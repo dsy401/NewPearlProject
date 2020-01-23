@@ -1,0 +1,14 @@
+{% extends 'layout/newsLayout.html' %}
+
+{% block content %}
+    <div class="container">
+        <h1 class="text-center">{% if locale['language'] == "English" %}{{ news_content['news_title']['title'] }}{% else %}{{ news_content['news_title']['title_cn'] }}{% endif %}</h1>
+        <hr/>
+    </div>
+    <div style="margin-bottom: 30px;min-height: 70vh" class="container">
+        <div class="ck-content">
+            {% if locale['language'] == "English" %}{{ news_content['content'] | safe}}{% else %}{{ news_content['content_cn'] |safe}}{% endif %}
+        </div>
+        <div style="clear: both"></div>
+    </div>
+{% endblock %}

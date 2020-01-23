@@ -70,7 +70,7 @@ def change_password(user_id):
     old_password_hash = md5(config['password']['private_key'].encode("utf-8"))
     old_password_hash.update(old_password.encode('utf-8'))
     if old_password_hash.hexdigest() != found_user['password']:
-        return result(False,None,"The old password is incorrect.").convert_to_json()
+        return result(False,None,"The old password is incorrect.").convert_to_json(),400
 
     new_password_hash = md5(config['password']['private_key'].encode("utf-8"))
     new_password_hash.update(new_password.encode('utf-8'))
