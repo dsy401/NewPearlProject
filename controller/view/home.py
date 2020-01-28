@@ -26,6 +26,7 @@ def index():
                            locale=en
                            )
 
+
 @home_view.route('/cn', methods=['GET'])
 def index_cn():
     cn=language['cn']

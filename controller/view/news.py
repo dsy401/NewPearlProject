@@ -10,7 +10,6 @@ news_view = Blueprint('news_view', __name__)
 def index():
     en = language['en']
     news_titles = news_title.objects().order_by('-created_at')
-    print(news_titles[0]['id'])
     return render_template('pages/news/index.html',
                            locale=en,
                            news_titles=news_titles,

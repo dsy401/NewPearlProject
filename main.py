@@ -59,6 +59,7 @@ mail = Mail(app)
 #add cors
 CORS(app)
 
+
 if __name__ == '__main__':
 
     if is_production:
