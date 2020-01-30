@@ -8,6 +8,23 @@ from bson import ObjectId
 contact_api = Blueprint('contact_api', __name__)
 
 
+# 给本地客户发送邮件
+@contact_api.route('/api/contact/local_client',methods=['POST'])
+@auth.login_required
+def send_email_to_local_client():
+    form = request.form
+    msg = Message(
+        subject=form['subject'],
+        sender="newpearldev@gmail.com",
+        recipients=[config['email_recipient']],
+        html=render_template('common/mail_template/mail_to_client_template.html',content=form['content'])
+    )
+
+    Mail().send(msg)
+    res = result(True, "Your email has been sent.", None)
+    return res.convert_to_json()
+
+
 @contact_api.route('/api/contact',methods=['POST'])
 def post_contact_form():
     # database operation

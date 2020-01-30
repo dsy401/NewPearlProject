@@ -62,3 +62,4 @@ def update_about(id):
         about_list.append(abouts[i])
     res = result(True, about_list, None)
     return res.convert_to_json()
+

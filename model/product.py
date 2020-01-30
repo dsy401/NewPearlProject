@@ -3,7 +3,7 @@ from mongoengine import *
 
 class product(Document):
     code = StringField(required=True)
-    image = StringField(required=True)
+    image = ListField(required=True)
     product_category_id = ObjectIdField(required=True)
     size = StringField(required=True)
     color = StringField(required=True)
