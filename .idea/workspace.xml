@@ -3,9 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="59103d30-a042-402c-bab5-3d3ee70717b5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/api/about.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/api/about.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/api/contact.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/api/contact.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/product.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/api/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/api/product.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/api/upload_img.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/api/upload_img.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newpearl_key.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/home/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/css/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/home/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/home/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/pages/Home/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pages/Home/product.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,45 +21,46 @@
     <SUITE FILE_PATH="coverage/NewPearlProject$NewPearlProject.coverage" NAME="NewPearlProject Coverage Results" MODIFIED="1575847656608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/NewPearlProject$result.coverage" NAME="result Coverage Results" MODIFIED="1579125010016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/model" />
     <SUITE FILE_PATH="coverage/NewPearlProject$Result.coverage" NAME="Result Coverage Results" MODIFIED="1575847011822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/model" />
+    <SUITE FILE_PATH="coverage/NewPearlProject$form_data_string_to_list.coverage" NAME="form_data_string_to_list Coverage Results" MODIFIED="1580434698313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="636085118">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="56" />
+          <entry key="project.closed" value="57" />
           <entry key="project.open.time.0" value="17" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.3" value="3" />
           <entry key="project.open.time.4" value="17" />
-          <entry key="project.open.time.5" value="13" />
+          <entry key="project.open.time.5" value="14" />
           <entry key="project.open.time.6" value="5" />
           <entry key="project.open.time.7" value="2" />
-          <entry key="project.opened" value="58" />
+          <entry key="project.opened" value="59" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="804" />
+          <entry key="css" value="817" />
           <entry key="dummy" value="102" />
           <entry key="env" value="17" />
           <entry key="flaskenv" value="158" />
           <entry key="gitignore" value="31" />
-          <entry key="html" value="15733" />
-          <entry key="js" value="5033" />
+          <entry key="html" value="16629" />
+          <entry key="js" value="5616" />
           <entry key="json" value="84" />
-          <entry key="py" value="30943" />
+          <entry key="py" value="31519" />
           <entry key="txt" value="252" />
           <entry key="yaml" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="804" />
-          <entry key="HTML" value="15752" />
+          <entry key="CSS" value="817" />
+          <entry key="HTML" value="16659" />
           <entry key="JSON" value="84" />
-          <entry key="JavaScript" value="5014" />
+          <entry key="JavaScript" value="5586" />
           <entry key="PLAIN_TEXT" value="560" />
-          <entry key="Python" value="30943" />
+          <entry key="Python" value="31519" />
           <entry key="YAML" value="8" />
         </counts>
       </usages-collector>
@@ -63,17 +68,17 @@
         <counts>
           <entry key="JavaScript-modules-diagram//Users/oliver/Desktop/NewPearlProject" value="1" />
           <entry key="cfg" value="1" />
-          <entry key="css" value="52" />
+          <entry key="css" value="58" />
           <entry key="env" value="1" />
           <entry key="flaskenv" value="4" />
           <entry key="gitignore" value="14" />
-          <entry key="html" value="553" />
+          <entry key="html" value="573" />
           <entry key="jpeg" value="16" />
           <entry key="jpg" value="13" />
-          <entry key="js" value="80" />
-          <entry key="json" value="8" />
+          <entry key="js" value="84" />
+          <entry key="json" value="11" />
           <entry key="png" value="8" />
-          <entry key="py" value="743" />
+          <entry key="py" value="764" />
           <entry key="rst" value="1" />
           <entry key="txt" value="26" />
           <entry key="yaml" value="8" />
@@ -81,14 +86,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="52" />
-          <entry key="HTML" value="553" />
+          <entry key="CSS" value="58" />
+          <entry key="HTML" value="573" />
           <entry key="Image" value="37" />
           <entry key="Ini" value="1" />
-          <entry key="JSON" value="8" />
-          <entry key="JavaScript" value="80" />
+          <entry key="JSON" value="11" />
+          <entry key="JavaScript" value="84" />
           <entry key="PLAIN_TEXT" value="45" />
-          <entry key="Python" value="743" />
+          <entry key="Python" value="764" />
           <entry key="ReST" value="1" />
           <entry key="UML" value="1" />
           <entry key="YAML" value="8" />
@@ -102,10 +107,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/controller/api/product.py">
+        <entry file="file://$PROJECT_DIR$/controller/api/upload_img.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+            <state relative-caret-position="270">
+              <caret line="18" column="62" lean-forward="true" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -118,26 +126,17 @@
         <option value="Flask Main" />
         <option value="JavaScript File" />
         <option value="CSS File" />
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>src</find>
-      <find>img-fluid</find>
-      <find>100%</find>
-      <find>nav</find>
-      <find>portfolio</find>
-      <find>product</find>
-      <find>.rl</find>
-      <find>result</find>
       <find>search</find>
       <find>.lr</find>
       <find>close-modal</find>
       <find>description</find>
-      <find>ToProductDetail</find>
       <find>返回</find>
       <find>background</find>
       <find>upper</find>
@@ -155,6 +154,15 @@
       <find>0</find>
       <find>Language</find>
       <find>footer</find>
+      <find>table</find>
+      <find>carousel</find>
+      <find>ToProductDetail</find>
+      <find>English</find>
+      <find>id</find>
+      <find>ModalBack</find>
+      <find>ModalBackModalBack</find>
+      <find>s.image</find>
+      <find>cn</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -163,13 +171,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/controller/api/login.py" />
-        <option value="$PROJECT_DIR$/static/home/js/index.js" />
-        <option value="$PROJECT_DIR$/controller/api/token_validate.py" />
-        <option value="$PROJECT_DIR$/model/web_client.py" />
-        <option value="$PROJECT_DIR$/model/local_client.py" />
-        <option value="$PROJECT_DIR$/controller/api/local_client.py" />
-        <option value="$PROJECT_DIR$/controller/api/staff.js" />
         <option value="$PROJECT_DIR$/controller/api/lottery.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app.yaml" />
@@ -179,7 +180,6 @@
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/controller/api/1.js" />
         <option value="$PROJECT_DIR$/setting.py" />
-        <option value="$PROJECT_DIR$/controller/api/upload_img.py" />
         <option value="$PROJECT_DIR$/controller/api/product_category.py" />
         <option value="$PROJECT_DIR$/controller/api/brand.py" />
         <option value="$PROJECT_DIR$/templates/common/home/header.html" />
@@ -188,12 +188,10 @@
         <option value="$PROJECT_DIR$/../newpearlprojectadmin/src/containers/Dashboard/Product/Product.js" />
         <option value="$PROJECT_DIR$/controller/api/staff.py" />
         <option value="$PROJECT_DIR$/templates/layout/homeLayout.html" />
-        <option value="$PROJECT_DIR$/controller/api/product.py" />
         <option value="$PROJECT_DIR$/templates/common/news.html" />
         <option value="$PROJECT_DIR$/templates/common/news/head.html" />
         <option value="$PROJECT_DIR$/templates/common/news/navbar.html" />
         <option value="$PROJECT_DIR$/static/news/js/index.js" />
-        <option value="$PROJECT_DIR$/language.py" />
         <option value="$PROJECT_DIR$/static/news/css/base.css" />
         <option value="$PROJECT_DIR$/static/news/css/tab.css" />
         <option value="$PROJECT_DIR$/controller/api/auth.py" />
@@ -201,19 +199,29 @@
         <option value="$PROJECT_DIR$/model/news_title.py" />
         <option value="$PROJECT_DIR$/static/news/css/news.css" />
         <option value="$PROJECT_DIR$/templates/layout/newsLayout.html" />
-        <option value="$PROJECT_DIR$/static/home/css/home.css" />
         <option value="$PROJECT_DIR$/controller/api/news.py" />
         <option value="$PROJECT_DIR$/templates/pages/news_content/index.html" />
         <option value="$PROJECT_DIR$/templates/pages/news/index.html" />
         <option value="$PROJECT_DIR$/controller/view/news.py" />
         <option value="$PROJECT_DIR$/controller/view/admin.py" />
-        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/controller/view/home.py" />
         <option value="$PROJECT_DIR$/model/product.py" />
         <option value="$PROJECT_DIR$/controller/api/contact.py" />
         <option value="$PROJECT_DIR$/templates/common/mail_template/mail_to_client_template.html" />
         <option value="$PROJECT_DIR$/config.py" />
         <option value="$PROJECT_DIR$/controller/api/about.py" />
+        <option value="$PROJECT_DIR$/templates/common/home/head.html" />
+        <option value="$PROJECT_DIR$/static/home/css/home.css" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/language.py" />
+        <option value="$PROJECT_DIR$/templates/pages/Home/product.html" />
+        <option value="$PROJECT_DIR$/static/home/js/index.js" />
+        <option value="$PROJECT_DIR$/templates/layout/product_layout.html" />
+        <option value="$PROJECT_DIR$/controller/view/product.py" />
+        <option value="$PROJECT_DIR$/utils/form_data_string_to_list.py" />
+        <option value="$PROJECT_DIR$/templates/pages/Product/index.html" />
+        <option value="$PROJECT_DIR$/controller/api/product.py" />
+        <option value="$PROJECT_DIR$/controller/api/upload_img.py" />
       </list>
     </option>
   </component>
@@ -224,9 +232,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1735" />
-    <option name="y" value="24" />
-    <option name="width" value="1503" />
+    <option name="x" value="-1755" />
+    <option name="y" value="23" />
+    <option name="width" value="1660" />
     <option name="height" value="969" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -254,62 +262,6 @@
               <item name="controller" type="462c0819:PsiDirectoryNode" />
               <item name="api" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="NewPearlProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NewPearlProject" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NewPearlProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NewPearlProject" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NewPearlProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NewPearlProject" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NewPearlProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NewPearlProject" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NewPearlProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NewPearlProject" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NewPearlProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NewPearlProject" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="mail_template" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NewPearlProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NewPearlProject" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NewPearlProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NewPearlProject" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="Home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NewPearlProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NewPearlProject" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="news_content" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -326,19 +278,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/static" />
-      <recent name="$PROJECT_DIR$/controller/api" />
-      <recent name="$PROJECT_DIR$/static/home/img/team" />
-      <recent name="$PROJECT_DIR$/static/home/lib" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/templates/pages/privacy_policy" />
       <recent name="$PROJECT_DIR$/static/product" />
       <recent name="$PROJECT_DIR$/static/img" />
       <recent name="$PROJECT_DIR$/templates/pages/Home" />
       <recent name="$PROJECT_DIR$/static/js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/static" />
+      <recent name="$PROJECT_DIR$/controller/api" />
+      <recent name="$PROJECT_DIR$/static/home/img/team" />
+      <recent name="$PROJECT_DIR$/static/home/lib" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -353,7 +305,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.result">
+  <component name="RunManager" selected="Python.form_data_string_to_list">
     <configuration name="Result" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="NewPearlProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -368,6 +320,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/model/Result.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="form_data_string_to_list" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="NewPearlProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/form_data_string_to_list.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -417,9 +391,11 @@
       <item itemvalue="Flask server.NewPearlProject" />
       <item itemvalue="Python.Result" />
       <item itemvalue="Python.result" />
+      <item itemvalue="Python.form_data_string_to_list" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.form_data_string_to_list" />
         <item itemvalue="Python.result" />
         <item itemvalue="Python.Result" />
       </list>
@@ -448,15 +424,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1735" y="24" width="1503" height="969" extended-state="0" />
+    <frame x="-1755" y="23" width="1660" height="969" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" sideWeight="0.50083196" side_tool="true" weight="0.23818646" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49916804" visible="true" weight="0.33538672" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.49916804" visible="true" weight="0.15203956" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4993895" weight="0.32905483" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32905483" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4993895" weight="0.32839224" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32839224" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -465,7 +441,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50406504" side_tool="true" weight="0.3663944" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49593496" visible="true" weight="0.19840364" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49593496" visible="true" weight="0.21208666" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32905483" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -506,97 +482,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/news/css/tab.css" />
-    <entry file="file://$PROJECT_DIR$/static/news/css/base.css" />
-    <entry file="file://$PROJECT_DIR$/model/brand.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="8" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/model/Result.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/result.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/view/privacy_policy.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/product_category.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/web_client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/api/product_category.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="91" selection-start-line="25" selection-start-column="91" selection-end-line="25" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/pages/term_of_use/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/news/css/news.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/pages/privacy_policy/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/news_title.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="45" lean-forward="true" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/news_content.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/home/css/home.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="655" column="28" selection-start-line="655" selection-start-column="28" selection-end-line="655" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/common/home/footer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/api/news.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="13" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/pages/news/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -611,20 +500,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="106">
           <caret line="31" column="60" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/api/lottery.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="17" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/language.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -667,13 +542,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build/index.html" />
     <entry file="file://$PROJECT_DIR$/controller/view/admin.py" />
-    <entry file="file://$PROJECT_DIR$/controller/view/home.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="26" column="28" lean-forward="true" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/s-app.yaml" />
     <entry file="file://$PROJECT_DIR$/app.yaml">
       <provider selected="true" editor-type-id="text-editor">
@@ -682,29 +550,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="45" column="13" lean-forward="true" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/setting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/view/news.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/common/mail_template/contact_email.html">
       <provider selected="true" editor-type-id="text-editor" />
@@ -712,50 +559,12 @@
     <entry file="file://$PROJECT_DIR$/templates/common/head.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/layout/homeLayout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/pages/Home/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="30" column="25" lean-forward="true" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/common/home/head.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/layout/newsLayout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="692">
-          <caret line="81" selection-start-line="81" selection-end-line="81" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/pages/news_content/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/common/mail_template/mail_to_client_template.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/view/lottery.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/api/general.py">
       <provider selected="true" editor-type-id="text-editor" />
@@ -778,10 +587,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="11" column="64" selection-start-line="11" selection-start-column="64" selection-end-line="11" selection-end-column="64" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-            <marker date="1580350718252" expanded="true" signature="411:803" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -792,10 +597,197 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/newpearl_key.json">
+    <entry file="file://$PROJECT_DIR$/templates/common/home/header.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/layout/homeLayout.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="240">
+          <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/pages/Home/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="94" selection-start-line="23" selection-start-column="94" selection-end-line="23" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/home/js/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-79" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/home/css/home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="706" column="1" lean-forward="true" selection-start-line="706" selection-start-column="1" selection-end-line="706" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/common/home/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/layout/newsLayout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="72" column="30" lean-forward="true" selection-end-line="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/view/lottery.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="7" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="48" column="43" lean-forward="true" selection-start-line="48" selection-start-column="43" selection-end-line="48" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/pages/privacy_policy/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/pages/news_content/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="72" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/home/vendor/bootstrap/css/bootstrap-grid.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/home/vendor/bootstrap/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93285">
+          <caret line="6219" column="9" selection-start-line="6219" selection-start-column="1" selection-end-line="6219" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/api/news.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="39" column="49" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/api/lottery.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" selection-start-line="12" selection-end-line="17" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/view/home.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="26" column="28" lean-forward="true" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/view/news.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/product_category.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/home/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="54" lean-forward="true" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/pages/news/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/language.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2469">
+          <caret line="174" column="36" selection-start-line="174" selection-start-column="29" selection-end-line="174" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/view/product.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/form_data_string_to_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="28" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="28" />
+          <folding>
+            <marker date="1580434750565" expanded="true" signature="38:43" ph="..." />
+            <marker date="1580434750565" expanded="true" signature="38:99" ph="..." />
+            <marker date="1580434750565" expanded="true" signature="38:100" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/layout/product_layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="59" column="21" lean-forward="true" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/pages/Home/product.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="34" lean-forward="true" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/pages/Product/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="57" column="32" lean-forward="true" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/api/product.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="56" lean-forward="true" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
         </state>
       </provider>
     </entry>
@@ -806,10 +798,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/api/product.py">
+    <entry file="file://$PROJECT_DIR$/newpearl_key.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newpearl_key.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/api/upload_img.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="62" lean-forward="true" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

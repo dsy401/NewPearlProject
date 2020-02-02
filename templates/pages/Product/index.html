@@ -1,0 +1,169 @@
+{% extends 'layout/product_layout.html' %}
+
+{% block content %}
+   <style>
+        .carousel {
+            margin-top: 20px;
+        }
+        .carousel-link .thumb {
+            width: 25%;
+            cursor: pointer;
+            float: left;
+        }
+        .carousel-link .thumb img {
+            width: 100%;
+            margin: 2px;
+            height: 100px;
+        }
+        .carousel-link .thumb:first-of-type img {
+            margin-left: 0;
+        }
+        .carousel-link .thumb:last-of-type img {
+            margin-right: 0;
+        }
+        .carousel-item img {
+            width: 100%;
+        }
+
+    </style>
+    <div style="margin-bottom: 30px;min-height: 70vh" class="container">
+    <div style='margin-right: auto;margin-left: auto' class="row text-center">
+        <div class='col-lg-12 mx-auto'>
+        <div class='modal-body'>
+        <h2 class='text-uppercase'>{{ product['code'] }}</h2>
+        <p class='item-intro text-muted'>
+            {% if locale['language']=="English" %}
+                {{ product['product_category']['name'] }}
+            {% else %}
+                {{ product['product_category']['name_cn'] }}
+            {% endif %}
+        </p>
+        </div>
+        </div>
+        <div class='row'>
+        <div class='col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6'>
+
+        <div id="carousel" class="carousel slide" data-ride="carousel">
+                <div style="max-height: 524px" class="carousel-inner">
+                    {% for i in range(0,product['image']|length) %}
+                        {% if i==0 %}
+                            <div class="carousel-item active">
+                                <a href="{{ product['image'][i] }}"><img style="height: 524px;width: 100%" src="{{ product['image'][i] }}"/></a>
+                            </div>
+                        {% else %}
+                            <div class="carousel-item">
+                                <a href="{{ product['image'][i] }}"><img style="height: 524px;width: 100%" src="{{ product['image'][i] }}"/></a>
+                            </div>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+                <div class="clearfix">
+                    <div class="carousel-link">
+                        {% for i in range(0,product['image']|length) %}
+                            <div data-target="#carousel" data-slide-to="{{ i }}" class="thumb"><img src="{{ product['image'][i] }}"></div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class='col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6'>
+            {% if locale['language']=="English" %}
+                <table style="margin-top: 20px" class='table table-bordered text-center'>
+                <thead>
+                <tr>
+                    <th scope='row'>Color</th>
+                    <td>{{ product['color'] }}</td>
+                </tr>
+                <tr>
+                    <th scope='row'>Environment</th>
+                    <td>{{ product['environment'] }}</td>
+                </tr>
+                <tr>
+                    <th scope='row'>Finish</th>
+                    <td>{{ product['finish'] }}</td>
+                </tr>
+                <tr>
+                    <th scope='row'>Material</th>
+                    <td>{{ product['material'] }}</td>
+                </tr>
+                <tr>
+                    <th scope='row'>Price</th>
+                    <td>{{ product['price'] }}</td>
+                </tr>
+                <tr>
+                    <th scope='row'>Shape</th>
+                    <td>{{ product['shape'] }}</td>
+                </tr>
+                <tr>
+                    <th scope='row'>Size</th>
+                    <td>{{ product['size'] }}</td>
+                </tr>
+                <tr>
+                    <th scope='row'>Type</th>
+                    <td>{{ product['type'] }}</td>
+                </tr>
+                <tr>
+                    <th scope='row'>Unit</th>
+                    <td>{{ product['unit'] }}</td>
+                </tr>
+                <tr>
+                    <th scope='row'>Style</th>
+                    <td>{{ product['style'] }}</td>
+                </tr>
+
+            </thead>
+            {% else %}
+                <table style="margin-top: 20px" class='table table-bordered text-center'>
+                <thead>
+                <tr>
+                    <th scope='row'>颜色</th>
+                    <td>{{ product['color_cn'] }}</td>
+                </tr>
+                <tr>
+                    <th scope='row'>适用场景</th>
+                    <td>{{ product['environment_cn'] }}</td>
+                </tr>
+                <tr>
+                    <th scope='row'>完成度</th>
+                    <td>{{ product['finish_cn'] }}</td>
+                </tr>
+                <tr>
+                    <th scope='row'>材料</th>
+                    <td>{{ product['material_cn'] }}</td>
+                </tr>
+                <tr>
+                    <th scope='row'>价格</th>
+                    <td>{{ product['price_cn'] }}</td>
+                </tr>
+                <tr>
+                    <th scope='row'>形状</th>
+                    <td>{{ product['shape_cn'] }}</td>
+                </tr>
+                <tr>
+                    <th scope='row'>大小</th>
+                    <td>{{ product['size_cn'] }}</td>
+                </tr>
+                <tr>
+                    <th scope='row'>类别</th>
+                    <td>{{ product['type_cn'] }}</td>
+                </tr>
+                <tr>
+                    <th scope='row'>单位</th>
+                    <td>{{ product['unit_cn'] }}</td>
+                </tr>
+                <tr>
+                    <th scope='row'>风格</th>
+                    <td>{{ product['style_cn'] }}</td>
+                </tr>
+
+            </thead>
+            {% endif %}
+        </table>
+        </div>
+        </div>
+        </div>
+    </div>
+
+{% endblock %}

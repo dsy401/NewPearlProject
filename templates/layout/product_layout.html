@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <meta property="og:url"                content="{% if locale['language']=="English" %}http://www.thrivingbuilding.co.nz/news{% else %}http://www.thrivingbuilding.co.nz/news/cn{% endif %}" />
+    <meta property="og:type"               content="website" />
+    <meta property="og:title"              content="{% if locale['language']=="English" %}News{% else %}新闻{% endif %}" />
+    <meta property="og:description"        content="{{ locale['about']['subtitle'] }}" />
+    <meta property="og:image"              content="https://www.newpearl.co.nz/wp-content/uploads/2017/11/logo_newpearl_13112017.png" />
+
+    <meta name="description" content="{{ locale['about']['subtitle'] }}" />
+    <meta name="keywords" content="thriving building" />
+    <meta name="keywords" content="瓷砖" />
+    <meta name="keywords" content="地毯" />
+    <meta name="keywords" content="地板"/>
+    <meta name="keywords" content="tile"/>
+    <meta name="keywords" content="floor"/>
+    <meta name="keywords" content="carpet"/>
+
+      <title>{{ product['code'] }}</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="{{ url_for('static',filename='home/vendor/bootstrap/css/bootstrap.min.css') }}"/>
+    <link rel="stylesheet" href="{{ url_for('static',filename='home/css/home.css') }}"/>
+    <link rel="stylesheet" href="{{ url_for('static',filename='news/css/news.css') }}"/>
+    <link rel="stylesheet" href="{{ url_for('static',filename='home/vendor/fontawesome-free/css/all.min.css') }}"/>
+    <link rel="icon" href="https://www.newpearl.co.nz/wp-content/uploads/2017/10/cropped-logo_icon-32x32.png" sizes="32x32">
+    <link rel="icon" href="https://www.newpearl.co.nz/wp-content/uploads/2017/10/cropped-logo_icon-192x192.png" sizes="192x192">
+    <link rel="apple-touch-icon-precomposed" href="https://www.newpearl.co.nz/wp-content/uploads/2017/10/cropped-logo_icon-180x180.png">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-shrink" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="{% if locale['language']=="English" %}/{% else %}/cn{% endif %}">Thriving Building</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        {% if locale['language']=="English" %}Menu{% else %}菜单{% endif %}
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav text-uppercase ml-auto">
+            {% for item in locale['navbar']['nav_item'] %}
+                <li class="nav-item">
+                    {% if item['name'] == "中文" %}
+                        <a class="nav-link js-scroll-trigger" href="/product/cn/{{ product['_id'] }}">{{ item['name'] }}</a>
+                    {% elif item['name'] == "English"%}
+                        <a class="nav-link js-scroll-trigger" href="/product/{{ product['_id'] }}">{{ item['name'] }}</a>
+                    {% else %}
+                        <a class="nav-link js-scroll-trigger" href="{{ item['n_href'] }}">{{ item['name'] }}</a>
+                    {% endif %}
+                </li>
+            {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Header -->
+  <header class="masthead">
+      <div style="height: 70px"></div>
+  </header>
+
+ {% block content %}{% endblock %}
+{% include 'common/home/footer.html' %}
+
+</body>
+
+<script src="{{ url_for('static',filename='home/vendor/jquery/jquery.min.js') }}"></script>
+  <script src="{{ url_for('static',filename='home/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+  <script src="{{ url_for('static',filename='home/vendor/jquery-easing/jquery.easing.min.js') }}"></script>
+<script src="{{ url_for('static',filename='news/js/index.js') }}"></script>
+
+</html>
