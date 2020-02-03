@@ -16,7 +16,8 @@ def send_email_to_local_client():
     clients = local_client.objects(is_active=True)
     client_email_list = []
     for i in range(clients.count()):
-        client_email_list.append(clients[i]['email'])
+        if clients[i]['email'] != "" or len(clients[i]['email']) >= 5:
+            client_email_list.append(clients[i]['email'])
 
     form = request.form
     msg = Message(
