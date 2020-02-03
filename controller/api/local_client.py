@@ -61,7 +61,7 @@ def add_client():
     new_client = local_client(name=form['name'], phone=form['phone'], address=form['address'],email=form['email'],is_active=True)
     new_client.save()
 
-    all_client = local_client.objects()
+    all_client = local_client.objects(is_active=True)
     client_list = []
     for i in range(all_client.count()):
         client_list.append(all_client[i])

@@ -1,6 +1,7 @@
 from flask import Blueprint,request,render_template
 from model.web_client import web_client
 from model.result import result
+from model.local_client import local_client
 from flask_mail import *
 from config import config
 from utils.auth import auth
@@ -12,12 +13,33 @@ contact_api = Blueprint('contact_api', __name__)
 @contact_api.route('/api/contact/local_client',methods=['POST'])
 @auth.login_required
 def send_email_to_local_client():
+    clients = local_client.objects(is_active=True)
+    client_email_list = []
+    for i in range(clients.count()):
+        client_email_list.append(clients[i]['email'])
+
     form = request.form
     msg = Message(
         subject=form['subject'],
-        sender="newpearldev@gmail.com",
-        recipients=[config['email_recipient']],
+        sender="info@thrivingbuilding.co.nz",
+        recipients=client_email_list,
         html=render_template('common/mail_template/mail_to_client_template.html',content=form['content'])
+    )
+
+    Mail().send(msg)
+    res = result(True, "Your email has been sent.", None)
+    return res.convert_to_json()
+
+
+@contact_api.route('/api/contact/local_client/test',methods=['POST'])
+@auth.login_required
+def test_email_template():
+    form = request.form
+    msg = Message(
+        subject=form['subject'],
+        sender="info@thrivingbuilding.co.nz",
+        recipients=[form['target_email']],
+        html=render_template('common/mail_template/mail_to_client_template.html', content=form['content'])
     )
 
     Mail().send(msg)
@@ -35,7 +57,7 @@ def post_contact_form():
 
     # 邮箱操作
     msg = Message(subject='A client contacted you just now',
-                  sender='newpearldev@gmail.com',
+                  sender='info@thrivingbuilding.co.nz',
                   recipients=[config['email_recipient']],
                   html=render_template(
                       'common/mail_template/contact_email.html',
@@ -54,7 +76,7 @@ def post_contact_form_cn():
     res = result(True, "您的表单已提交.",None)
     # 邮箱操作
     msg = Message(subject='A client contacted you just now',
-                  sender='newpearldev@gmail.com',
+                  sender='info@thrivingbuilding.co.nz',
                   recipients=[config['email_recipient']],
                   html=render_template(
                       'common/mail_template/contact_email.html',

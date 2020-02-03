@@ -30,6 +30,7 @@ function OpenPortfolioModal(name,description,id) {
             document.getElementById("productLoadingSpinner").style.display = "inline-block"
         },
         success: function (result) {
+            console.log(result)
              document.getElementById("productLoadingSpinner").style.display = "none"
             let result_string = "";
             result.data.forEach(s=>{
@@ -107,12 +108,9 @@ function ToProductDetail(obj) {
 
 
 function ModalClose() {
-    document.getElementById("portfolioproductdetail").style.display = 'none'
-     document.getElementById('back-button').style.opacity = '0'
     setTimeout(function () {
         document.getElementById("portfolioproduct").style.opacity = "1";
         document.getElementById("portfolioproduct").style.display = "inline-block";
-        document.getElementById("portfolioproductdetail").style.opacity = "0"
     },200)
 }
 
@@ -137,7 +135,7 @@ var swiper;
             slidesPerView: 1,
             spaceBetween: 30,
             autoplay: {
-                delay: 2000,
+                delay: 2000,f
             },
             pagination: {
                 el: '.swiper-pagination',
