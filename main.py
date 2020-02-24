@@ -8,6 +8,7 @@ from controller.view.lottery import lottery_view
 from controller.view.product import product_view
 from controller.api.product import product_api
 from controller.api.contact import contact_api
+from controller.api.member_transaction import member_transaction_api
 from controller.api.lottery import lottery_api
 from controller.api.about import about_api
 from controller.api.news import news_api
@@ -17,6 +18,7 @@ from controller.api.local_client import local_client_api
 from controller.api.brand import brand_api
 from controller.api.staff import staff_api
 from controller.api.auth import auth_api
+from controller.api.member import member_api
 from controller.api.upload_img import upload_image_api
 from flask_mongoengine import MongoEngine
 from flask_mail import Mail
@@ -43,7 +45,8 @@ app.register_blueprint(upload_image_api)
 app.register_blueprint(general_api)
 app.register_blueprint(news_api)
 app.register_blueprint(about_api)
-
+app.register_blueprint(member_api)
+app.register_blueprint(member_transaction_api)
 # View config
 app.register_blueprint(home_view)
 app.register_blueprint(privacy_policy_view)

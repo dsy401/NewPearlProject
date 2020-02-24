@@ -2,9 +2,11 @@ from flask import Blueprint,request
 from bson import ObjectId
 from model.result import result
 from model.user import user
+from model.login_log import login_log
 from utils.auth import auth
 from hashlib import md5
 from config import config
+import datetime
 auth_api = Blueprint('auth_api', __name__)
 
 
@@ -45,6 +47,9 @@ def login():
                 'user_name': found_user['staff_detail']['name'],
                 'user_id': str(found_user['_id'])
             }
+
+            login_log(user_name=data['user_name'],user_id=data['user_id'],date_time=datetime.datetime.utcnow()+datetime.timedelta(hours=13)).save()
+
             res = result(True,data,None)
             return res.convert_to_json()
         else:
