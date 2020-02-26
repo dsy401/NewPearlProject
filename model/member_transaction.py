@@ -4,5 +4,8 @@ from mongoengine import *
 class transaction(Document):
     member_id = ObjectIdField(required=True)
     date_time = DateTimeField(required=True)
-    point = IntField(required=True)
-    add_or_use = BooleanField(required=True) # True 是add ，False是use
+    amount = DecimalField(required=True)
+    pay_amount = DecimalField(required=True)
+    used_point = IntField(required=True)
+    before_point = IntField(required=True)
+    after_point=IntField(required=True)

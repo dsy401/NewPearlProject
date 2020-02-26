@@ -1,4 +1,4 @@
-from flask import render_template,Blueprint
+from flask import render_template,Blueprint,redirect
 from model.staff import staff
 from model.about import about
 from model.brand import brand
@@ -45,3 +45,7 @@ def index_cn():
                            product_categories_count=product_categories.count(),
                            locale=cn,
                            )
+
+@home_view.route('/admin',methods=['GET'])
+def r():
+    return redirect('http://www.admin.thrivingbuilding.co.nz')
